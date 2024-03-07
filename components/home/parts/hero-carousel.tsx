@@ -26,49 +26,62 @@ export default function HeroCarousel() {
         centeredSlides={false}
       >
         <SwiperSlide>
-          <Link href="https://hakkaren.co/">
-            <div className="mx-3 flex justify-center items-center">
-              <Image
-                className="hero-carousel-item"
-                src={hkItemBg}
-                height={250}
-                alt="coming soon"
-              />
-              <div className="hero-carousel-item-overload">
-                <Image src={logoImg} height={50} alt="hk" />
-              </div>
+          <div>
+            <div className="text-center text-2xl pb-8">
+              Productivity Platform
             </div>
-          </Link>
+            <Link href="https://hakkaren.co/">
+              <div className="mx-3 flex justify-center items-center">
+                <Image
+                  className="hero-carousel-item"
+                  src={hkItemBg}
+                  height={250}
+                  alt="coming soon"
+                />
+                <div className="hero-carousel-item-overload">
+                  <Image src={logoImg} height={50} alt="hk" />
+                </div>
+              </div>
+            </Link>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="">
-            <div className="mx-3 flex justify-center items-center">
-              <Image
-                className="hero-carousel-item"
-                src={comingItemBg}
-                height={250}
-                alt="coming soon"
-              />
-              <div className="hero-carousel-item-overload">
-                <Image src={comingSoon} height={100} alt="coming" />
+          <div>
+            <div className="text-center text-2xl pb-8">Services Platform</div>
+            <Link href="">
+              <div className="mx-3 flex justify-center items-center">
+                <Image
+                  className="hero-carousel-item"
+                  src={comingItemBg}
+                  height={250}
+                  alt="coming soon"
+                />
+                <div className="hero-carousel-item-overload">
+                  <Image src={comingSoon} height={100} alt="coming" />
+                </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Link href="">
-            <div className="mx-3 flex justify-center items-center">
-              <Image
-                className="hero-carousel-item"
-                src={comingItemBg}
-                height={250}
-                alt="coming soon"
-              />
-              <div className="hero-carousel-item-overload">
-                <Image src={comingSoon} height={100} alt="coming" />
-              </div>
+          <div>
+            <div className="text-center text-2xl pb-8">
+              Integration Platform
             </div>
-          </Link>
+            <Link href="">
+              <div className="mx-3 flex justify-center items-center">
+                <Image
+                  className="hero-carousel-item"
+                  src={comingItemBg}
+                  height={250}
+                  alt="coming soon"
+                />
+                <div className="hero-carousel-item-overload">
+                  <Image src={comingSoon} height={100} alt="coming" />
+                </div>
+              </div>
+            </Link>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
