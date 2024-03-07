@@ -1,0 +1,16 @@
+@media (max-width: 500px) {
+  body {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  h1 {
+    font-size: 32px !important;
+    font-weight: 700;
+    line-height: 41.6px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+    font-weight: 700;
+    line-height: 41.6px !important;
+  }
+}
