@@ -3,10 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 import comingItemBg from "@/public/imgs/home/Ellipse 66.png";
 import hkItemBg from "@/public/imgs/home/Ellipse 69.png";
-import DataForgerIco from "@/public/imgs/home/DataForger.svg";
-// import loadlensIco from "@/public/imgs/home/LoadLens.svg";
+import logoImg from "@/public/imgs/logos/Logo.svg";
 import comingSoon from "@/public/imgs/home/comingSoon.png";
-import NimbusIco from "@/public/imgs/home/Nimbus.svg";
 import Link from "next/link";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,11 +31,11 @@ export default function HeroCarousel() {
               <Image
                 className="hero-carousel-item"
                 src={hkItemBg}
-                height={300}
+                height={250}
                 alt="coming soon"
               />
               <div className="hero-carousel-item-overload">
-                <Image src={DataForgerIco} height={100} alt="hk" />
+                <Image src={logoImg} height={50} alt="hk" />
               </div>
             </div>
           </Link>
@@ -48,7 +46,7 @@ export default function HeroCarousel() {
               <Image
                 className="hero-carousel-item"
                 src={comingItemBg}
-                height={300}
+                height={250}
                 alt="coming soon"
               />
               <div className="hero-carousel-item-overload">
@@ -63,7 +61,7 @@ export default function HeroCarousel() {
               <Image
                 className="hero-carousel-item"
                 src={comingItemBg}
-                height={300}
+                height={250}
                 alt="coming soon"
               />
               <div className="hero-carousel-item-overload">

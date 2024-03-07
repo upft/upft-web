@@ -110,16 +110,16 @@ h4 {
   height: 100vh;
 }
 .hero-section-btn {
-  width: 360px;
-  height: 360px;
+  width: 300px;
+  height: 300px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .hero-center-btn:hover {
-  width: 360px;
-  height: 360px;
+  width: 320px;
+  height: 320px;
 }
 .hero-section-icon {
   width: auto;
@@ -139,8 +139,8 @@ h4 {
   height: 290px !important;
 }
 .dataforger-btn {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,8 +149,8 @@ h4 {
   background-repeat: no-repeat;
 }
 .coming-btn {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;

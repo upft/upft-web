@@ -8,7 +8,7 @@ export default function HomeProductsCircles() {
     <div className="hidden lg:flex relative">
       <div className="w-full mx-auto flex text-center justify-center">
         <div>
-          <div className="text-center text-3xl">Service Platform</div>
+          <div className="text-center text-2xl">Service Platform</div>
           <Link href="">
             <div className="duration-500 ease-linear hero-section-btn hero-center-btn mx-8">
               <div className="duration-500 ease-linear coming-btn hover-active">
@@ -22,7 +22,7 @@ export default function HomeProductsCircles() {
           </Link>
         </div>
         <div>
-          <div className="text-center text-3xl">Productivity Platform</div>
+          <div className="text-center text-2xl">Productivity Platform</div>
           <Link href="https://hakkaren.co/">
             <div className="duration-500 ease-linear hero-section-btn hero-center-btn mx-8">
               <div className="duration-500 ease-linear dataforger-btn hover-active px-4">
@@ -36,7 +36,7 @@ export default function HomeProductsCircles() {
           </Link>
         </div>
         <div>
-          <div className="text-center text-3xl">Integration Platform</div>
+          <div className="text-center text-2xl">Integration Platform</div>
           <Link href="">
             <div className="duration-500 ease-linear hero-section-btn hero-center-btn mx-8">
               <div className="duration-500 ease-linear coming-btn hover-active">
