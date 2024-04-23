@@ -13,4 +13,110 @@
     font-weight: 700;
     line-height: 41.6px !important;
   }
+  /*  */
+  .navigation-group {
+    margin: auto !important;
+  }
+
+  .scrollup-btn {
+    bottom: 10rem !important;
+    right: 2rem !important;
+  }
+  .hero-play-card {
+    border-radius: 0px !important;
+    height: 300px !important;
+    background-color: #6e8de5;
+  }
+  .hero-play-card-text {
+    font-size: 10.72px !important;
+    line-height: 15px !important;
+  }
+  .hero-play-card-logo {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    transform-origin: center;
+    height: 100%;
+    padding: 4rem;
+  }
+  .wave-background {
+    background: none !important;
+  }
+  .mobile-hereo-play-btn {
+    position: absolute;
+    display: block !important;
+  }
+  .hero-about-us-section {
+    height: 200px !important;
+  }
+  .about-us-section-md-text {
+    font-size: 25px !important;
+    font-weight: 500;
+    line-height: 32.5px !important;
+  }
+  .feature-carousel-width {
+    /* width: max-content; */
+    padding-left: 0 !important;
+    width: 100%;
+  }
+  .feature-carousel-dot {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  .blog-subscribe-background {
+    background-image: none !important;
+  }
+  .dataforger-card {
+    height: 300px;
+  }
+  .dataforger-logo {
+    height: 100px !important;
+  }
+  .nimbus-card {
+    height: 300px;
+  }
+  .nimbus-logo {
+    height: 100px !important;
+  }
+  .wave-bg {
+    background: none !important;
+  }
+  .how-it-works-btn {
+    padding: 12px !important;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 24px !important;
+    font-weight: 700;
+    line-height: 31.75px !important;
+  }
+  .how-it-works-txt-effect {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    line-height: 36px !important;
+  }
+  .how-it-works-play-card {
+    border-radius: 0;
+    height: 300px !important;
+    background-color: #6e8de5 !important;
+  }
+  .loadlens-card {
+    height: 300px !important;
+  }
+  .dataSet-bg {
+    background: none !important;
+  }
+  h2.blog-subscribe-head {
+    font-size: 32px !important;
+    font-weight: 500;
+    line-height: 41.6px;
+  }
+}
+@media (max-width: 1024px) {
+  .dataSet-bg {
+    background: none !important;
+  }
 }

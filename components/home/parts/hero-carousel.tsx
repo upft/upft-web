@@ -1,16 +1,28 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
-import comingItemBg from "@/public/imgs/home/Ellipse 66.png";
-import hkItemBg from "@/public/imgs/home/Ellipse 69.png";
-import logoImg from "@/public/imgs/logos/Logo.svg";
+import CarouselItemBg from "@/public/imgs/home/CarouselItemBg.png";
+import DataForgerIco from "@/public/imgs/home/DataForger.svg";
+// import loadlensIco from "@/public/imgs/home/LoadLens.svg";
 import comingSoon from "@/public/imgs/home/comingSoon.png";
+import NimbusIco from "@/public/imgs/home/Nimbus.svg";
 import Link from "next/link";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, EffectCreative } from "swiper/modules";
+
+const responsive = {
+  450: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  640: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+};
 
 export default function HeroCarousel() {
   return (
@@ -22,68 +34,154 @@ export default function HeroCarousel() {
         }}
         modules={[EffectCreative, Pagination]}
         slidesPerView={1}
+        breakpoints={responsive}
         loop={true}
         centeredSlides={false}
       >
         <SwiperSlide>
-          <div>
-            <div className="text-center text-2xl pb-8">
-              Productivity Platform
-            </div>
-            <Link href="https://hakkaren.co/">
-              <div className="mx-3 flex justify-center items-center">
-                <Image
-                  className="hero-carousel-item"
-                  src={hkItemBg}
-                  height={250}
-                  alt="coming soon"
-                />
-                <div className="hero-carousel-item-overload">
-                  <Image src={logoImg} height={50} alt="hk" />
-                </div>
+          <Link href="/products/dataforger">
+            <div className="mx-3 flex justify-center items-center">
+              <Image
+                className="hero-carousel-item"
+                src={CarouselItemBg}
+                height={200}
+                alt="item1"
+              />
+              <div className="hero-carousel-item-overload">
+                <Image src={DataForgerIco} height={80} alt="dataforger" />
               </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <div className="text-center text-2xl pb-8">Services Platform</div>
-            <Link href="">
-              <div className="mx-3 flex justify-center items-center">
-                <Image
-                  className="hero-carousel-item"
-                  src={comingItemBg}
-                  height={250}
-                  alt="coming soon"
-                />
-                <div className="hero-carousel-item-overload">
-                  <Image src={comingSoon} height={100} alt="coming" />
-                </div>
+          <Link href="/products/nimbus">
+            <div className="mx-3 flex justify-center items-center">
+              <Image
+                className="hero-carousel-item"
+                src={CarouselItemBg}
+                height={200}
+                alt="item1"
+              />
+              <div className="hero-carousel-item-overload">
+                <Image src={NimbusIco} height={80} alt="nimbus" />
               </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+        {/* <SwiperSlide>
+          <Link href="/products/loadlens">
+            <div className="mx-3 flex justify-center items-center">
+              <Image
+                className="hero-carousel-item"
+                src={CarouselItemBg}
+                height={200}
+                alt="item1"
+              />
+              <div className="hero-carousel-item-overload">
+                <Image src={comingSoon} height={80} alt="loadlens" />
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
+          <Link href="/products/dataforger">
+            <div className="mx-3 flex justify-center items-center">
+              <Image
+                className="hero-carousel-item"
+                src={CarouselItemBg}
+                height={200}
+                alt="item1"
+              />
+              <div className="hero-carousel-item-overload">
+                <Image src={DataForgerIco} height={80} alt="dataforger" />
+              </div>
+            </div>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <div className="text-center text-2xl pb-8">
-              Integration Platform
-            </div>
-            <Link href="">
-              <div className="mx-3 flex justify-center items-center">
-                <Image
-                  className="hero-carousel-item"
-                  src={comingItemBg}
-                  height={250}
-                  alt="coming soon"
-                />
-                <div className="hero-carousel-item-overload">
-                  <Image src={comingSoon} height={100} alt="coming" />
-                </div>
+          <Link href="/products/nimbus">
+            <div className="mx-3 flex justify-center items-center">
+              <Image
+                className="hero-carousel-item"
+                src={CarouselItemBg}
+                height={200}
+                alt="item1"
+              />
+              <div className="hero-carousel-item-overload">
+                <Image src={NimbusIco} height={80} alt="nimbus" />
               </div>
-            </Link>
-          </div>
-        </SwiperSlide>
+            </div>
+          </Link>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
+          <Link href="/products/loadlens">
+            <div className="mx-3 flex justify-center items-center">
+              <Image
+                className="hero-carousel-item"
+                src={CarouselItemBg}
+                height={200}
+                alt="item1"
+              />
+              <div className="hero-carousel-item-overload">
+                <Image src={comingSoon} height={80} alt="loadlens" />
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide> */}
       </Swiper>
+      {/* <Carousel itemClass=" flex justify-center" centerMode={true} focusOnSelect={true} ssr={true} infinite={true} slidesToSlide={3} responsive={responsive} showDots={true}>
+        <Link href="/products/dataforger">
+          <div className="h-52 w-52 mx-3 flex justify-center items-center">
+            <Image
+              className="hero-carousel-item"
+              src={CarouselItemBg}
+              height={200}
+              alt="item1"
+            />
+            <div className="hero-carousel-item-overload">
+              <Image
+                src={DataForgerIco}
+                height={80}
+                alt="dataforger"
+              />
+            </div>
+          </div>
+        </Link>
+        <Link href="/products/nimbus">
+          <div className="h-52 w-52 mx-3 flex justify-center items-center">
+            <Image
+              className="hero-carousel-item"
+              src={CarouselItemBg}
+              height={200}
+              alt="item1"
+            />
+            <div className="hero-carousel-item-overload">
+              <Image
+                src={NimbusIco}
+                height={80}
+                alt="nimbus"
+              />
+            </div>
+          </div>
+        </Link>
+        <Link href="/products/loadlens">
+          <div className="h-52 w-52 mx-3 flex justify-center items-center">
+            <Image
+              className="hero-carousel-item"
+              src={CarouselItemBg}
+              height={200}
+              alt="item1"
+            />
+            <div className="hero-carousel-item-overload">
+              <Image
+                src={comingSoon}
+                height={80}
+                alt="loadlens"
+              />
+            </div>
+          </div>
+        </Link>
+      </Carousel> */}
     </div>
   );
 }

@@ -10,6 +10,8 @@ import "@/app/css/style.css";
 
 import { Inter, Architects_Daughter } from "next/font/google";
 
+import Header from "@/components/ui/header";
+
 import oopsImg from "@/public/imgs/oopsImg.png";
 
 const inter = Inter({
@@ -40,6 +42,7 @@ export default function Custom404() {
       className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased custom-purple text-gray-200 tracking-tight`}
     >
       <div className="flex flex-col justify-between min-h-screen">
+        <Header />
         <div className="max-w-7xl mx-auto my-8 px-3">
           <Image src={oopsImg} className="mx-auto" alt="oop" />
           <h2 className="text-center font-extrabold my-8 uppercase">
