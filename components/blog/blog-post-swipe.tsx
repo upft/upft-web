@@ -79,8 +79,8 @@ export default function BlogPostsSwipe() {
       title:
         "Beyond Traditional Testing: Leveraging Synthetic Data for Comprehensive QA",
       topic: "DataForger",
-      author: "2024/04/12",
-      date: randomDate(new Date(2012, 0, 1), new Date()),
+      author: "",
+      date: "2024/04/12",
       imgSrc: BlogItem2,
       href: "/blog/blog-post/beyond-traditional-testing",
     });
