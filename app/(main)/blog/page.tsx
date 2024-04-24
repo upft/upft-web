@@ -6,11 +6,11 @@ import BlogSubscribe from "@/components/blog/blog-subscribe";
 export default function Blog() {
   return (
     <section>
-      <div className="blog-section relative py-10 lg:py-20 px-4">
+      {/* <div className="blog-section relative py-10 lg:py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <BlogSwipe />
         </div>
-      </div>
+      </div> */}
       <div className="blog-section relative py-10 lg:py-20 px-4">
         <BlogPostsSwipe />
       </div>

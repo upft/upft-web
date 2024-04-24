@@ -36,7 +36,7 @@ export default function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="/company"
+                      href="/about"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       About Us
@@ -67,14 +67,14 @@ export default function Footer() {
               <div className="text-sm">
                 <div className="text-gray-200 font-medium mb-1">Products</div>
                 <ul>
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <Link
                       href="/products/overview"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Overview
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="mb-1">
                     <Link
                       href="/products/dataforger"

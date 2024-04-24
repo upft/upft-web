@@ -47,10 +47,11 @@ export default function DataForger() {
     <section ref={sectionRef as any} className="relative overflow-hidden ">
       <DataForgerHero />
       <DataForgerFeaturesCarousel />
-      <DataForgerHighlightFeatures />
-      <AIManagement />
+      {/* <DataForgerHighlightFeatures /> */}
+
       <DataForgerDatabaseFeatures />
       <DataForgerCIFeatures />
+      <AIManagement />
     </section>
   );
 }

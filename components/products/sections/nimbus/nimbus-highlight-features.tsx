@@ -12,7 +12,7 @@ export default function NimbusHighlightFeatures() {
           <div className="nimbus-right w-full lg:w-6/12">
             <h2 className="px-4 lg:px-8 mb-8">
               <span className="custom-start-lg-effect -ml-4 pl-4">
-                Evanescent Environment for Every Pull Request
+                Ephemeral Environment Environment for Every Pull Request
               </span>
             </h2>
             <p className="px-4 lg:px-8 mb-8">

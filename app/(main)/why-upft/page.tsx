@@ -66,21 +66,20 @@ export default function WhyUPFT() {
   return (
     <section>
       <WhyHero />
-      <div className="why-section relative py-10 lg:py-20 px-8"></div>
       <div className="why-section relative py-10 lg:py-20 px-2">
         <div className="max-w-7xl mx-auto">
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <div className="whyUPFT-left">
+            <div className="hero-left-content px-8 order-2 lg:order-1">
               <Image
                 src={generalImg}
-                className="w-full h-full"
+                className="hero-codeImg mb-4"
                 alt="'general"
               />
             </div>
-            <div className="why-upft-right">
+            <div className="hero-right-content text-start px-4 order-1 lg:order-2">
               <h2 className="my-6">
-                <span className="px-4 lg:px-8 my-4 custom-start-lg-effect">
-                  General
+                <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-effect">
+                  Collabaration and Intuition
                 </span>
               </h2>
               {/* <div className="max-w-7xl mx-auto">
@@ -108,84 +107,32 @@ export default function WhyUPFT() {
                   </abbr>
                 </div>
               </div> */}
-              <p className="px-4 lg:px-8  my-4 font-extrabold">
+              <p className="mb-2 lg:mb-6 font-extrabold">
+                Broader Target Audience and Collaborative Focus
+              </p>
+              <p className="mb-2 lg:mb-6">
+                UPFT caters not just to developers, but also to non-technical
+                team members like project managers, customer success, and sales
+                teams. It promotes a collaborative testing environment across
+                different departments, making it a comprehensive platform for
+                various organizational needs.
+              </p>
+              {/* <p className="px-4 lg:px-8 my-6 font-extrabold">
                 Broader Target Audience and Collaborative Focus
               </p>
               <p className="px-4 lg:px-8 my-4">
-                DataForger caters not just to developers, but also to
+                Hakkaren platform caters not just to developers, but also to
                 non-technical team members like QA, project managers, customer
                 success, and sales teams. This diverse appeal promotes a
                 collaborative testing environment across different departments,
                 making it a comprehensive platform for various organizational
                 needs.
-              </p>
-              <p className="px-4 lg:px-8 my-6 font-extrabold">
-                Broader Target Audience and Collaborative Focus
-              </p>
-              <p className="px-4 lg:px-8 my-4">
-                DataForger caters not just to developers, but also to
-                non-technical team members like QA, project managers, customer
-                success, and sales teams. This diverse appeal promotes a
-                collaborative testing environment across different departments,
-                making it a comprehensive platform for various organizational
-                needs.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
       </div>
-      <div className="why-section relative py-10 lg:py-20 px-2">
-        <div className="hidden lg:block wave-bg absolute top-0 left-0 w-full h-full opacity-30 -z-10"></div>
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-start lg:text-center w-full pl-4 lg:pl-0 lg:w-2/3 mx-auto">
-            <span className="-ml-4 lg:-ml-0 px-4 lg:px-8 custom-start-lg-effect">
-              Advanced Features Set with Customization
-            </span>
-          </h2>
-          <div className="w-full justify-start items-start grid grid-cols-1 lg:grid-cols-3 gap-10 my-8 px-2 lg:px-8">
-            <div className="whyItem flex justify-center items-center flex-col px-2">
-              <Image src={Frame1} height={100} alt="frame1" />
-              <span className="my-2">DataForger</span>
-              <p className="text-center">
-                Offers customizable data seeding, allowing users to create
-                specific testing scenarios and datasets without accessing
-                production data.
-              </p>
-            </div>
-            <div className="whyItem flex justify-center items-center flex-col">
-              <Image src={Frame2} height={100} alt="frame2" />
-              <span className="my-2">Nimbus</span>
-              <p className="text-center">
-                Provides ephemeral and isolated testing environments to
-                eliminate conflicts during simultaneous testing processes
-              </p>
-            </div>
-            {/* <div className="whyItem flex justify-center items-center flex-col">
-              <Image src={Frame3} height={100} alt="frame3" />
-              <span className="my-2">LoadLens</span>
-              <p className="text-center">
-                Integrates load testing capabilities, vital for performance
-                assessments, which enhances the platform's utility
-              </p>
-            </div> */}
-          </div>
-        </div>
-      </div>
-      <div className="why-section relative py-10 lg:py-20 px-2">
-        <div className="max-w-7xl mx-auto">
-          <h2>
-            <span className="px-4 lg:px-8 my-4 custom-start-lg-effect">
-              Non-tech friendly user experience
-            </span>
-          </h2>
-          <div className="w-full hidden lg:grid grid-cols-3  gap-10 p-4 lg:p-8">
-            <WhyFeaturesLists listItems={generalItems} />
-          </div>
-          <div className="w-full block py-2 lg:hidden lg:p-8">
-            <WhyFeaturesSwiperLists listItems={generalItems} />
-          </div>
-        </div>
-      </div>
+
       <div className="why-section relative py-10 lg:py-20 px-2">
         <div className="max-w-7xl mx-auto">
           <h2 className="mb-12 px-4">

@@ -47,7 +47,7 @@ export default function FeaturesCarousel({ items }: any) {
           loop={true}
           ref={swiperRef}
           className="feature-carousel-swip"
-          spaceBetween={20}
+          spaceBetween={10}
           pagination={pagination}
           modules={[Scrollbar, Pagination]}
         >

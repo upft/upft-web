@@ -18,7 +18,7 @@ const architects_daughter = Architects_Daughter({
 });
 
 export const metadata = {
-  title: "DataForger",
+  title: "UPFT",
   description: "Unified Platform For Testing",
   icons: [{ rel: "icon", url: "favicon.ico" }],
 };

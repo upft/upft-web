@@ -16,11 +16,7 @@ export default function NimbusHero() {
           Ephemeral Enviroment as a Service - EaaS Platform
         </p>
         <div data-aos="fade-up" data-aos-delay="400" className="text-center">
-          <a
-            href="https://app.hakkaren.co/auth/signup"
-            target="_blank"
-            className="w-full lg:w-fit btn-sm mx-auto text-white bg-purple-600 rounded border-white hover:bg-purple-700 py-3 px-6 shadow-lg shadow-indigo-600/100"
-          >
+          <button className="w-full lg:w-fit btn-sm mx-auto text-white bg-purple-600 rounded border-white hover:bg-purple-700 py-3 px-6 shadow-lg shadow-indigo-600/100">
             <svg
               className="mr-2"
               width="21"
@@ -34,18 +30,18 @@ export default function NimbusHero() {
                 fill="white"
               />
             </svg>
-            Try Nimbus free
-          </a>
+            Coming Soon
+          </button>
         </div>
       </div>
 
-      <ProductsVideoPlay
+      {/* <ProductsVideoPlay
         productName={"nimbus"}
         playBtnImg={playBtn}
         productImgSrc={nimbusIco}
         playIcoSrc={playIco}
         videoSrc={"videos/video.mp4"}
-      />
+      /> */}
     </div>
   );
 }

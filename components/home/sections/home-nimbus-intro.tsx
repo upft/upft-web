@@ -11,30 +11,25 @@ export default function HomeNimbusIntro() {
           <div className="hero-left-content px-4 order-1">
             <h2>
               <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-lg-effect">
-                How Nimbus Works: A Brief Overview
+                Nimbus: Ephemeral Environment
               </span>
             </h2>
-            <p className="mb-2 lg:mb-6">
-              DataForger solves your data seeding problem, but what about
-              environment conflicts? Here comes Nimbus.{" "}
-            </p>
             <ul className="list-disc pl-8 lg:pl-8 pr-8">
               <li className="mb-2 lg:mb-6">
-                Personal ephemeral environments: Avoid conflicts with dedicated
-                environments for each team member.
+                Avoid conflicts with dedicated environments for each team
+                member.
               </li>
               <li className="mb-2 lg:mb-6">
-                Integrates with DataForger: Creates a powerful platform for
-                streamlined testing.
+                Use it for testing, piloting, or showcasing.
               </li>
               <li className="mb-2 lg:mb-6">
-                Create an isolated environment where anyone can seed desired
-                usere scenarios
+                Avoid conflicts with dedicated environments for each team
+                member.
               </li>
             </ul>
 
             <div className="hidden lg:block w-full mt-8 ">
-              <Link href="/product/nimbus">
+              <Link href="/products/nimbus">
                 <span className="font-bold md-text-2xl text-black bg-white py-2 px-4 rounded">
                   Learn more
                 </span>
@@ -49,7 +44,7 @@ export default function HomeNimbusIntro() {
               alt="Nimbus Image"
             />
             <div className="block lg:hidden w-full mt-8 ">
-              <Link href="/product/nimbus">
+              <Link href="/products/nimbus">
                 <span className="font-bold md-text-2xl text-black bg-white py-2 px-4 rounded">
                   Learn more
                 </span>

@@ -110,7 +110,7 @@ export default function Header() {
                   <ul className="grid grid-cols-3 bg-gray-900 px-4 py-8 divide-x">
                     <li className="flex flex-col justify-center items-center">
                       <Link
-                        href="/company"
+                        href="/about"
                         className="flex flex-col text-center text-2xl font-medium w-full header-menu-btn py-2"
                         onClick={() => setCompanyDropdownOpen(false)}
                       >
@@ -196,7 +196,7 @@ export default function Header() {
                   }
                 >
                   <ul className="grid grid-cols-3 bg-gray-900 px-4 py-8 divide-x">
-                    <li className="flex flex-col justify-center items-center">
+                    {/* <li className="flex flex-col justify-center items-center">
                       <Link
                         href="/products/overview"
                         className="flex flex-col text-center text-2xl font-medium w-full header-menu-btn py-2"
@@ -215,7 +215,7 @@ export default function Header() {
                           View our products
                         </div>
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="flex flex-col justify-center items-center">
                       <Link
                         href="/products/dataforger"

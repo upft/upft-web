@@ -11,12 +11,12 @@ export default function HomeGeneralIntro() {
         <div className="px-4 order-1 lg:order-2">
           <h2 className="mb-8">
             <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-lg-effect">
-              Collaborative Test Data and EaaS Hub
+              Real Fake Data with Ephemeral Environment
             </span>
           </h2>
           <p className="mb-4">
-            DataForger offers intuitive Real-Fake Data Generation and
-            Environment as a Service (EaaS) in one place.
+            UPFT offers intuitive Real-Fake Data Generation and Environment as a
+            Service (Ephemeral Environment) in one place.
           </p>
           <p className="mb-8">
             It goes beyond developers, enabling seamless collaboration for QA

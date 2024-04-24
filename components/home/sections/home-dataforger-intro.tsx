@@ -7,7 +7,7 @@ export default function HomeDataForgerIntro() {
   return (
     <div className="hero-section relative py-12 my-0 lg:my-16">
       <div className="max-w-7xl mx-auto text-center">
-        <div className="hidden w-full lg:flex justify-between items-center py-8 px-8 mb-8">
+        {/* <div className="hidden w-full lg:flex justify-between items-center py-8 px-8 mb-8">
           <span className="px-6 custom-start-lg-effect text-size-30 py-2">
             Analyzing
           </span>
@@ -104,7 +104,7 @@ export default function HomeDataForgerIntro() {
               Connecting
             </span>
           </span>
-        </div>
+        </div> */}
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 px-2">
           <div className="hero-left-content px-8 order-2 lg:order-1">
             <Image
@@ -116,12 +116,12 @@ export default function HomeDataForgerIntro() {
           <div className="hero-right-content text-start px-4 order-1 lg:order-2">
             <h2 className="mb-8">
               <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-effect">
-                Exploring How DataForger accelerate your testing process
+                DataForger: Real Fake Data Generator
               </span>
             </h2>
 
             <p className="mb-2 lg:mb-6">
-              Try to seed the test data? Frustrated and tedius work?
+              Try to seed the test data, but it's tedius work?
             </p>
             <ul className="list-disc pl-8 pr-8">
               <li className="mb-2 lg:mb-6">
@@ -131,12 +131,12 @@ export default function HomeDataForgerIntro() {
                 No complex configurations or setup.
               </li>
               <li className="mb-2 lg:mb-6">
-                Simply upload a database dump file, DataForger will generate
-                real-fake data like production for you!
+                No access to production database. We generate the data just
+                based on the schema.
               </li>
             </ul>
             <div className="lg:block mt-8">
-              <Link href="/product/dataforger">
+              <Link href="/products/dataforger">
                 <span className="font-bold md-text-2xl text-black bg-white py-2 px-4 rounded">
                   Learn more
                 </span>

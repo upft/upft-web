@@ -20,33 +20,33 @@ export default function NimbusFeaturesCarousel() {
       title: "Integrates with DataForger",
       detail: "Creates a powerful platform for streamlined testing.",
     },
+    // {
+    //   id: "03",
+    //   imgsrc: nimbusItemImg3,
+    //   title: "Endless Possibilities",
+    //   detail: "Embrace Limitless Potential at Every Turn.",
+    // },
     {
       id: "03",
-      imgsrc: nimbusItemImg3,
-      title: "Endless Possibilities",
-      detail: "Embrace Limitless Potential at Every Turn.",
-    },
-    {
-      id: "04",
       imgsrc: nimbusItemImg4,
       title: "Meticulous testing",
       detail:
         "Hosted database integrates seamlessly with your CI pipeline or locally.",
     },
-    {
-      id: "05",
-      imgsrc: nimbusItemImg1,
-      title: "Meticulous testing",
-      detail:
-        "Hosted database integrates seamlessly with your CI pipeline or locally.",
-    },
-    {
-      id: "06",
-      imgsrc: nimbusItemImg2,
-      title: "Meticulous testing",
-      detail:
-        "Hosted database integrates seamlessly with your CI pipeline or locally.",
-    },
+    // {
+    //   id: "05",
+    //   imgsrc: nimbusItemImg1,
+    //   title: "Meticulous testing",
+    //   detail:
+    //     "Hosted database integrates seamlessly with your CI pipeline or locally.",
+    // },
+    // {
+    //   id: "06",
+    //   imgsrc: nimbusItemImg2,
+    //   title: "Meticulous testing",
+    //   detail:
+    //     "Hosted database integrates seamlessly with your CI pipeline or locally.",
+    // },
   ];
 
   return (

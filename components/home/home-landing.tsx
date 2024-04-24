@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
-import logo from "@/public/imgs/logos/upft-logo.png";
+import logo from "@/public/imgs/logos/Logo.svg";
+import dfFlow from "@/public/imgs/dataforger/df-flow.png";
 import playIco from "@/public/imgs/home/playIco.svg";
 
 import AIManagement from "../ui/ai-management";
@@ -21,17 +23,17 @@ export default function HomeLanding() {
     <section className="">
       <HomeHero />
       <HomeProductsCircles />
-      <HomeGeneralIntro />
 
-      <VideoPlay
-        logoSrc={logo}
-        playIcoSrc={playIco}
-        videoSrc={"/videos/video.mp4"}
-      />
+      <div className="hero-section relative py-12 my-0 lg:my-16">
+        <div className="max-w-7xl mx-auto text-center">
+          <Image src={dfFlow} alt="dfFlow" />
+        </div>
+      </div>
 
       <HomeDataForgerIntro />
-      <HomeNimbusIntro />
-      <HomeIntegratedIntro />
+      {/* <HomeNimbusIntro /> */}
+      {/* <HomeGeneralIntro /> */}
+      {/* <HomeIntegratedIntro /> */}
       {/* <HomeLoadLensIntro /> */}
 
       <AIManagement />

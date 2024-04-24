@@ -17,14 +17,15 @@ export default function CompanyMission() {
               providing a centralized hub for companies to streamline their
               testing efforts.
             </p>
-            <p className="px-4 lg:px-8 py-4 lg:py-8">
-              By eliminating the fragmentation that often occurs in testing, we
-              aim to make the process more efficient, effective, and seamless.
-            </p>
-            <p className="px-4 lg:px-8 py-4 lg:py-8">
+            {/* <p className="px-4 lg:px-8 py-4 lg:py-8">
               At UPFT, we are committed to empowering businesses with the tools
               and resources they need to optimize their testing process and
-              achieve success.
+              achieve success. We are targeting on 3 segments - Testing
+              Productivity Tools, Integration, and Service
+            </p> */}
+            <p className="px-4 lg:px-8 py-4 lg:py-8">
+              UPFT is the platform aim to increase the testing productivity and
+              make the process more efficient, effective, and seamless.
             </p>
           </div>
           <div className="about-us-right">

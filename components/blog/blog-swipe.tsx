@@ -29,12 +29,12 @@ export default function BlogSwipe() {
               </span>
             </h2>
             <p className="px-4 lg:px-8 my-6 lg:my-12">
-              DataForger emphasizes data privacy, operating without needing
-              access to production data, crucial for organizations with strict
-              data privacy and compliance requirements. The platform also offers
-              24/7 support and cost-effective solutions, making it accessible
-              and appealing, especially to startups and smaller enterprises
-              seeking comprehensive yet affordable testing tools.
+              UPFT emphasizes data privacy, operating without needing access to
+              production data, crucial for organizations with strict data
+              privacy and compliance requirements. The platform also offers 24/7
+              support and cost-effective solutions, making it accessible and
+              appealing, especially to startups and smaller enterprises seeking
+              comprehensive yet affordable testing tools.
             </p>
             <Link href="/blog/blog-post/example1">
               <span className="px-4 lg:px-8 font-extrabold underline underline-offset-2">

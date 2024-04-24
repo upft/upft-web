@@ -23,23 +23,15 @@ export default function DataForgerDatabaseFeatures() {
                 Accept Major Databases
               </span>
             </h2>
-            <p className="px-4 md:px-8 my-8 w-full md:w-9/12">
-              Inspired by Inception. Just like planting an idea in a dream,
-              Inceptor plants specific test scenarios directly into your
-              database.
-            </p>
+            <p className="px-4 md:px-8 my-8 w-full md:w-9/12"></p>
             <span className="font-extrabold px-4 md:px-8 py-4">
               Available Now:
             </span>
             <div className="flex px-4 md:px-8 py-4">
               <Image src={mongoIco} height={55} alt="mongo ico" />
             </div>
-            <span className="font-extrabold px-4 md:px-8 py-4">
-              Coming Soon:
-            </span>
             <div className="flex px-4 md:px-8 py-4">
               <Image src={PostgreSQLogo} height={94} alt="postgreSQL" />
-              <Image className="mx-4" src={MySQLogo} height={94} alt="Mysql" />
             </div>
           </div>
         </div>

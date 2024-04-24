@@ -26,11 +26,6 @@ export default function NimbusIntegrationsFeatures() {
                 Integrations
               </span>
             </h2>
-            <p className="px-4 lg:px-8 mb-8 w-full lg:w-3/4">
-              Inspired by Inception. Just like planting an idea in a dream,
-              Inceptor plants specific test scenarios directly into your
-              database.
-            </p>
             <span className="font-extrabold px-4 lg:px-8 py-4">CD/CI:</span>
             <div className="w-full lg:flex gap-4 py-4 px-4 lg:px-8 grid grid-cols-2">
               <Image className="mx-2" src={gitlab} height={55} alt="gitlab" />

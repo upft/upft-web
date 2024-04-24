@@ -138,7 +138,7 @@ export default function MobileMenu() {
               <ul className="bg-gray-900 px-4 py-2">
                 <li className="flex justify-center items-center">
                   <Link
-                    href="/company"
+                    href="/about"
                     className="flex justify-between items-center font-medium w-full header-menu-btn py-2"
                     onClick={() => {
                       setCompanyDropdownOpen(false);
@@ -220,7 +220,7 @@ export default function MobileMenu() {
               }
             >
               <ul className="bg-gray-900 px-4 py-2">
-                <li className="flex justify-center items-center">
+                {/* <li className="flex justify-center items-center">
                   <Link
                     href="/products/overview"
                     className="flex justify-between items-center font-medium w-full header-menu-btn py-2"
@@ -231,7 +231,7 @@ export default function MobileMenu() {
                   >
                     Overview
                   </Link>
-                </li>
+                </li> */}
                 <li className="flex justify-center items-center">
                   <Link
                     href="/products/dataforger"

@@ -67,52 +67,22 @@ export default function BlogPostsSwipe() {
     let tmpBlogItems = [];
 
     tmpBlogItems.push({
-      title: "No-code Test Data Seeding and Management Platform",
-      topic: topics[Math.floor(Math.random() * 7)],
-      author: authors[Math.floor(Math.random() * 10)],
-      date: randomDate(new Date(2012, 0, 1), new Date()),
+      title:
+        "Streamlining Test Automation with Cypress: Techniques for Generating Dynamic Test Data",
+      topic: "DataForger",
+      author: "",
+      date: "2024/04/10",
       imgSrc: BlogItem1,
-      href: "/blog/blog-post/example1",
+      href: "/blog/blog-post/streamlining-test-automation-with-cypress",
     });
     tmpBlogItems.push({
-      title: "Ephemeral Environment",
-      topic: topics[Math.floor(Math.random() * 7)],
-      author: authors[Math.floor(Math.random() * 10)],
+      title:
+        "Beyond Traditional Testing: Leveraging Synthetic Data for Comprehensive QA",
+      topic: "DataForger",
+      author: "2024/04/12",
       date: randomDate(new Date(2012, 0, 1), new Date()),
       imgSrc: BlogItem2,
-      href: "/blog/blog-post/example2",
-    });
-    tmpBlogItems.push({
-      title: "EaaS",
-      topic: topics[Math.floor(Math.random() * 7)],
-      author: authors[Math.floor(Math.random() * 10)],
-      date: randomDate(new Date(2012, 0, 1), new Date()),
-      imgSrc: BlogItem3,
-      href: "/blog/blog-post/example3",
-    });
-    tmpBlogItems.push({
-      title: "Privacy",
-      topic: topics[Math.floor(Math.random() * 7)],
-      author: authors[Math.floor(Math.random() * 10)],
-      date: randomDate(new Date(2012, 0, 1), new Date()),
-      imgSrc: BlogItem4,
-      href: "/blog/blog-post/example4",
-    });
-    tmpBlogItems.push({
-      title: "EaaS",
-      topic: topics[Math.floor(Math.random() * 7)],
-      author: authors[Math.floor(Math.random() * 10)],
-      date: randomDate(new Date(2012, 0, 1), new Date()),
-      imgSrc: BlogItem3,
-      href: "/blog/blog-post/example3",
-    });
-    tmpBlogItems.push({
-      title: "Privacy",
-      topic: topics[Math.floor(Math.random() * 7)],
-      author: authors[Math.floor(Math.random() * 10)],
-      date: randomDate(new Date(2012, 0, 1), new Date()),
-      imgSrc: BlogItem4,
-      href: "/blog/blog-post/example4",
+      href: "/blog/blog-post/beyond-traditional-testing",
     });
 
     setOriginBgItems(tmpBlogItems);
@@ -513,24 +483,6 @@ export default function BlogPostsSwipe() {
                 <div className="text-white">
                   <Image src={bgItem.imgSrc} alt={`item` + key} />
                   <p className="py-2">{bgItem.title}</p>
-                  <p className="pb-1 hidden">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                      />
-                    </svg>
-
-                    {bgItem.author}
-                  </p>
                   <p className="mb-4">{bgItem.date}</p>
                 </div>
               </Link>
@@ -599,24 +551,6 @@ export default function BlogPostsSwipe() {
                       alt={`item` + key}
                     />
                     <p className="py-2 text-white">{bgItem.title}</p>
-                    <p className="hidden pb-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                        />
-                      </svg>
-
-                      {bgItem.author}
-                    </p>
                     <p>
                       {bgItem.date} ({bgItem.topic})
                     </p>

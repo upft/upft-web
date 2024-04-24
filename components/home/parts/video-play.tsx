@@ -26,9 +26,8 @@ export default function VideoPlay({
           <div ref={videoContainer} className="hero-play-card-content">
             <div className="w-full h-full p-4 lg:p-10 flex flex-col justify-between">
               <div className="hero-play-card-text h-20">
-                <p>Fake Data Generation</p>
-                <p>Environment as a Service(EaaS),</p>
-                <p>and Load Testing Analysis</p>
+                <p>Fake Data Generation and</p>
+                <p>Environment as a Service(EaaS)</p>
               </div>
               <div className="hero-play-card-logo text-center lg:h-20 flex justify-center items-center">
                 <Image src={logoSrc} height={120} alt="logo" />

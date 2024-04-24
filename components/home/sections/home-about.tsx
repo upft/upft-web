@@ -41,14 +41,14 @@ export default function HomeAbout() {
           </span>
         </div>
         <div className="block w-full lg:hidden  mt-8 px-8 ">
-          <Link href="/company">
+          <Link href="/about">
             <button className="w-full lg:w-auto rounded lg:px-12 py-2 bg-white text-black font-bold">
               About Us
             </button>
           </Link>
         </div>
         <div className="hidden w-full lg:flex justify-end px-8 mt-8 lg:-mt-7">
-          <Link href="/company">
+          <Link href="/about">
             <button className="w-full lg:w-auto rounded lg:px-12 py-2 bg-white text-black font-bold">
               About Us
             </button>
