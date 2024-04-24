@@ -1,0 +1,41 @@
+.how-it-works-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37px;
+  color: white;
+}
+.how-it-works-action-btn {
+  background-color: #3860d2 !important;
+}
+.how-it-works-step-effect {
+  background: -webkit-linear-gradient(0deg, #6e8de5, #3860d2, #e8fcaf, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700 !important;
+}
+.how-it-works-txt-effect {
+  background: linear-gradient(89deg, #3861d2ad, transparent);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  border-radius: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+}
+.how-it-works-play-card {
+  border-radius: 30px;
+  height: 600px;
+  background-color: #3860d2;
+}
+.how-it-works-cardTxt {
+  font-size: 93.6px;
+  font-weight: 700;
+  line-height: 123px;
+}

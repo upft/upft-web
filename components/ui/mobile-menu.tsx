@@ -145,19 +145,19 @@ export default function MobileMenu() {
                       setMobileNavOpen(false);
                     }}
                   >
-                    About
+                    About Us
                   </Link>
                 </li>
                 <li className="flex justify-center items-center">
                   <Link
-                    href="/why-hakkaren"
+                    href="/why-upft"
                     className="flex justify-between items-center font-medium w-full header-menu-btn py-2"
                     onClick={() => {
                       setCompanyDropdownOpen(false);
                       setMobileNavOpen(false);
                     }}
                   >
-                    Why Hakkaren Platform
+                    Why UPFT
                   </Link>
                 </li>
               </ul>
@@ -220,7 +220,7 @@ export default function MobileMenu() {
               }
             >
               <ul className="bg-gray-900 px-4 py-2">
-                <li className="flex justify-center items-center">
+                {/* <li className="flex justify-center items-center">
                   <Link
                     href="/products/overview"
                     className="flex justify-between items-center font-medium w-full header-menu-btn py-2"
@@ -231,7 +231,7 @@ export default function MobileMenu() {
                   >
                     Overview
                   </Link>
-                </li>
+                </li> */}
                 <li className="flex justify-center items-center">
                   <Link
                     href="/products/dataforger"

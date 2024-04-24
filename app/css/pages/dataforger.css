@@ -1,0 +1,184 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinRevert {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.scrolldown {
+  position: absolute;
+  left: 80vw;
+  top: 10vh;
+  width: 103px;
+  height: 103px;
+  padding: 25px;
+  border-radius: 50%;
+  background-color: #3860d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrolldown-outer {
+  width: 145px;
+  height: 145px;
+  background-image: url("/imgs/dataforger/Elips.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -21px;
+  top: -21px;
+  transform-origin: center;
+  animation: spin 3s linear infinite;
+}
+.scrolldown-inner {
+  width: 125px;
+  height: 125px;
+  background-image: url("/imgs/dataforger/Elips.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -11px;
+  top: -11px;
+  transform-origin: center;
+  animation: spinRevert 4s linear infinite;
+}
+.dataforger-card {
+  background-image: url("/imgs/dataforger/CardBg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.dataforger-overload {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nimbus-overload {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadlens-overload {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playbtn-content {
+  position: absolute;
+  left: 30px;
+  bottom: 35px;
+}
+.dataforger-logo {
+  height: 200px;
+}
+.dataforgerVideo-play {
+  position: absolute;
+}
+.feature-carousel-width {
+  /* width: max-content; */
+  padding-left: 2rem;
+  width: 100vw;
+}
+.feature-carousel-group {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 18rem;
+  margin-top: 3rem;
+}
+.carousel-btn {
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4e4b4b4a;
+  width: 60px;
+  height: 60px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.feature-dots-list {
+  left: revert !important;
+  right: revert !important;
+  width: 50%;
+  bottom: 75px !important;
+}
+.feature-carousel-swip > .swiper-pagination {
+  width: 50% !important;
+  text-align: start !important;
+  display: flex;
+}
+.feature-carousel-swip
+  > .swiper-pagination-bullets.swiper-pagination-horizontal {
+  margin-top: 80px !important;
+}
+.forgerSwip-navigations {
+  margin-left: calc(50% + 70px);
+  margin-top: -45px;
+}
+.feature-carousel-item {
+  width: fit-content !important;
+  padding: 10px;
+}
+.feature-carousel-swip
+  > .swiper-pagination
+  > .feature-carousel-dot.swiper-pagination-bullet-active {
+  background-color: #3860d2 !important;
+}
+.feature-carousel-swip > .swiper-pagination > .feature-carousel-dot {
+  width: 250px !important;
+  height: 5px !important;
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+.feature-item-card {
+  width: 380px;
+  height: 360px;
+  border: 1px solid #3860d2;
+  border-radius: 10px;
+  padding: 15px;
+  margin: auto;
+}
+
+.power-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+.lineWave_bg {
+  background-image: url("/imgs/dataforger/Line_3.png");
+  background-size: cover;
+  background-position: center;
+}
