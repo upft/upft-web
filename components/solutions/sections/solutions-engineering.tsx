@@ -16,12 +16,12 @@ export default function SolutionsEngineering() {
             </h2>
             <p className="my-8 px-4 md:px-8">
               Struggling with seeding data for specific test scenarios? Let
-              DataForger streamline the process for you. Whether you need to
+              DataInceptor streamline the process for you. Whether you need to
               replicate a user journey with a large dataset or a unique user
-              scenario, DataForger accelerates the setup with ease.
+              scenario, DataInceptor accelerates the setup with ease.
             </p>
             <p className="my-8 px-4 md:px-8">
-              Say goodbye to the "it works on my end" scenario. DataForger
+              Say goodbye to the "it works on my end" scenario. DataInceptor
               fosters closer collaboration between QA and developers by
               replicating bugs efficiently and accurately. Imagine sending a
               complete testing environment, set up via Nimbus, to your
@@ -52,13 +52,13 @@ export default function SolutionsEngineering() {
               task.
             </p>
             <p className="my-8 px-4 md:px-8">
-              Enter DataForger and Nimbus, the dynamic duo that makes your life
-              easier. With DataForger, setting up your automated tests becomes a
-              breeze, even without a technical background. Create your own data
-              seeding setup quickly and focus on what you do best – developing
-              standout features and accelerating your pace. With DataForger and
-              Nimbus, automated testing becomes not just a task, but a seamless
-              part of your development cycle.
+              Enter DataInceptor and Nimbus, the dynamic duo that makes your
+              life easier. With DataInceptor, setting up your automated tests
+              becomes a breeze, even without a technical background. Create your
+              own data seeding setup quickly and focus on what you do best –
+              developing standout features and accelerating your pace. With
+              DataInceptor and Nimbus, automated testing becomes not just a
+              task, but a seamless part of your development cycle.
             </p>
           </div>
         </div>

@@ -14,8 +14,8 @@ export default function LoadLensHighlightFeatures() {
             </h2>
             <ul className="list-disc pl-14 pr-8 py-8">
               <li className="mb-2 lg:mb-6">
-                Seamless integration with DataForger: Easily set up large data
-                scenarios with DataForger.
+                Seamless integration with DataInceptor: Easily set up large data
+                scenarios with DataInceptor.
               </li>
               <li className="mb-2 lg:mb-6">
                 Environment setup with Nimbus: Define your environment

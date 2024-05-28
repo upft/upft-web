@@ -1,4 +1,4 @@
-import PricingDataForger from "@/components/pricing/sections/pricing-dataforger";
+import PricingDataInceptor from "@/components/pricing/sections/pricing-dataforger";
 import PricingNimbus from "@/components/pricing/sections/pricing-nimbus";
 
 export const metadata = {
@@ -9,7 +9,7 @@ export const metadata = {
 export default function Pricing() {
   return (
     <section className="">
-      <PricingDataForger />
+      <PricingDataInceptor />
       <PricingNimbus />
     </section>
   );

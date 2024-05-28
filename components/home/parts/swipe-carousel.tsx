@@ -3,7 +3,7 @@ import { EffectCoverflow } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import dataforger_svg from "@/public/imgs/home/DataForger.svg";
+import dataforger_svg from "@/public/imgs/home/DataInceptor.svg";
 import nimbus_svg from "@/public/imgs/home/Nimbus.svg";
 import loadlens_svg from "@/public/imgs/home/LoadLens.svg";
 

@@ -5,7 +5,7 @@ import featureItem4 from "@/public/imgs/dataforger/featureItem4.png";
 import FeaturesCarousel from "../features-carousel";
 import FeaturesMobileCarousel from "../features-mobile-carousel";
 
-export default function DataForgerFeaturesCarousel() {
+export default function DataInceptorFeaturesCarousel() {
   const dfFeaturesLists = [
     {
       id: "01",
@@ -30,7 +30,7 @@ export default function DataForgerFeaturesCarousel() {
       imgsrc: featureItem4,
       title: "Easy database access",
       detail:
-        "Connect to DataForger's database seamlessly with your CI pipeline or locally.",
+        "Connect to DataInceptor's database seamlessly with your CI pipeline or locally.",
     },
     {
       id: "05",

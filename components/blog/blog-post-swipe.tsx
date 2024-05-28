@@ -69,7 +69,7 @@ export default function BlogPostsSwipe() {
     tmpBlogItems.push({
       title:
         "Streamlining Test Automation with Cypress: Techniques for Generating Dynamic Test Data",
-      topic: "DataForger",
+      topic: "DataInceptor",
       author: "",
       date: "2024/04/10",
       imgSrc: BlogItem1,
@@ -78,7 +78,7 @@ export default function BlogPostsSwipe() {
     tmpBlogItems.push({
       title:
         "Beyond Traditional Testing: Leveraging Synthetic Data for Comprehensive QA",
-      topic: "DataForger",
+      topic: "DataInceptor",
       author: "",
       date: "2024/04/12",
       imgSrc: BlogItem2,

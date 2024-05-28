@@ -4,7 +4,7 @@ import TryNowBtn from "@/components/misc/try-now-btn";
 import { useState } from "react";
 import PricingDFAdvancedPkg from "../parts/pricing-df-advanced-pkg";
 
-export default function PricingDataForger() {
+export default function PricingDataInceptor() {
   const [showModal, setShowModal] = useState(false);
 
   const handleShowModal = () => {
@@ -19,7 +19,7 @@ export default function PricingDataForger() {
     <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
         <h1 className="font-extrabold mb-4">
-          <span className="custom-start-lg-effect px-8">DataForger</span>
+          <span className="custom-start-lg-effect px-8">DataInceptor</span>
         </h1>
         <p className="mb-5 text-gray-400 sm:text-xl">
           The best test data seeding tools made for you

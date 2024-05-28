@@ -56,7 +56,7 @@ export default function Features() {
                   />
                 </Link>
               </span>
-              <h4 className="h4 mb-2">DataForger</h4>
+              <h4 className="h4 mb-2">DataInceptor</h4>
               <h5>Seamlessly seed any scenario you want</h5>
             </div>
 

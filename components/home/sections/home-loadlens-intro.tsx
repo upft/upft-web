@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import uploadIcon from "@/public/imgs/home/UploadIcon.png";
 import loadIcon from "@/public/imgs/home/LoadIcon.png";
-import dataForgerIcon from "@/public/imgs/home/DataForgerIcon.png";
+import dataForgerIcon from "@/public/imgs/home/DataInceptorIcon.png";
 import nimbusIcon from "@/public/imgs/home/NimbusIcon.png";
 import svgCuverArrow from "@/public/imgs/home/curvedArrow.svg";
 import longArrow from "@/public/imgs/home/longArrow.svg";
@@ -46,7 +46,7 @@ export default function HomeLoadLensIntro() {
             </div>
             <div className="loadlens-grid-item">
               <Image src={dataForgerIcon} alt="upload" />
-              <span>DataForger</span>
+              <span>DataInceptor</span>
             </div>
             <div className="curve-arrow">
               <Image

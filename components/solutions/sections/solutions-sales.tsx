@@ -21,9 +21,9 @@ export default function SolutionsSales() {
               setting up demo data?
             </p>
             <p className="my-8 px-4 md:px-8">
-              Enter DataForger, a game-changer for the Sales team. It enables
+              Enter DataInceptor, a game-changer for the Sales team. It enables
               you to efficiently seed data setups and create realistic,
-              industry-specific scenarios. With DataForger's AI-powered data
+              industry-specific scenarios. With DataInceptor's AI-powered data
               generation, your product demos become more engaging, vibrant, and
               effective, ultimately boosting sales opportunities.
             </p>
@@ -53,7 +53,7 @@ export default function SolutionsSales() {
             <p className="my-8 px-4 md:px-8">
               Want to offer prospective customers a trial of your product
               without overexposing features or risking your production database?
-              DataForger and Nimbus offer an innovative solutions. They allow
+              DataInceptor and Nimbus offer an innovative solutions. They allow
               you to set up trial access distinctly, maintaining a cleaner
               database that supports more accurate LLM models in your system.
             </p>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Seamlessly from "@/public/imgs/dataforger/seamlessly.png";
 
-export default function DataForgerCIFeatures() {
+export default function DataInceptorCIFeatures() {
   return (
     <div className="dataforger-section relative py-12">
       <div className="max-w-7xl mx-auto px-2">

@@ -5,7 +5,7 @@ import step3Img from "@/public/imgs/how-it-works/howitworkStep3.png";
 import step4Img from "@/public/imgs/how-it-works/howitworkStep4.png";
 import step5Img from "@/public/imgs/how-it-works/howitworkStep5.png";
 
-export default function HowDataForger() {
+export default function HowDataInceptor() {
   return (
     <div className="how-it-works-section relative px-4 lg:px-12">
       <div className="max-w-7xl mx-auto">

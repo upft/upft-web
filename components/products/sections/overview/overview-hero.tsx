@@ -10,9 +10,10 @@ export default function OverviewHero() {
           <span className="px-4 md:px-8 custom-start-lg-effect">Products</span>
         </h1>
         <p className="text-center md:text-start px-4 md:px-8 w-full md:w-2/3">
-          DataForger is a platform offering Fake Data Generation and Environment
-          as a Service (EaaS) in one place. It goes beyond developers, enabling
-          seamless collaboration for QA, CSM, PM, and even Sales.
+          DataInceptor is a platform offering Fake Data Generation and
+          Environment as a Service (EaaS) in one place. It goes beyond
+          developers, enabling seamless collaboration for QA, CSM, PM, and even
+          Sales.
         </p>
       </div>
       <div className="max-w-7xl mx-auto text-center my-6 pb-12">
@@ -27,11 +28,11 @@ export default function OverviewHero() {
           <div className="hero-right-content text-start px-6 order-1 md:order-2">
             <h2>
               <span className="-ml-4 md:-ml-8 px-4 md:px-8 custom-start-effect">
-                Exploring How DataForger Works: A Brief Overview
+                Exploring How DataInceptor Works: A Brief Overview
               </span>
             </h2>
             <p className="mb-2 md:mb-6">
-              DataForger solves your data seeding problem, but what about
+              DataInceptor solves your data seeding problem, but what about
               environment conflicts? Here comes Nimbus.{" "}
             </p>
             <ul className="list-disc pl-6 pr-8">
@@ -40,7 +41,7 @@ export default function OverviewHero() {
                 environments for each team member.
               </li>
               <li className="mb-2 md:mb-6">
-                Integrates with DataForger: Creates a powerful platform for
+                Integrates with DataInceptor: Creates a powerful platform for
                 streamlined testing.
               </li>
             </ul>

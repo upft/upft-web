@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import codeImg from "@/public/imgs/home/code_main.png";
 
-export default function HomeDataForgerIntro() {
+export default function HomeDataInceptorIntro() {
   return (
     <div className="hero-section relative py-12 my-0 lg:my-16">
       <div className="max-w-7xl mx-auto text-center">
@@ -116,7 +116,7 @@ export default function HomeDataForgerIntro() {
           <div className="hero-right-content text-start px-4 order-1 lg:order-2">
             <h2 className="mb-8">
               <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-effect">
-                DataForger: Real Fake Data Generator
+                DataInceptor: Real Fake Data Generator
               </span>
             </h2>
 
@@ -125,7 +125,7 @@ export default function HomeDataForgerIntro() {
             </p>
             <ul className="list-disc pl-8 pr-8">
               <li className="mb-2 lg:mb-6">
-                DataForger helps you to seed the data instantly.
+                DataInceptor helps you to seed the data instantly.
               </li>
               <li className="mb-2 lg:mb-6">
                 No complex configurations or setup.

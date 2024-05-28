@@ -13,7 +13,7 @@ export default function LoadLensHero() {
         </h1>
         <p className=" px-6 py-4 lg:py-8 mb-4">
           Run load testing analysis can be easy with LoadLens and leverage
-          Nimbus and DataForger!
+          Nimbus and DataInceptor!
         </p>
         <div data-aos="fade-up" data-aos-delay="400">
           <button className="w-full lg:w-fit btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 py-3 px-6 shadow-lg shadow-indigo-600/100">

@@ -23,7 +23,7 @@ export const generalItems = [
     imgSrc: featureItem3,
     title: "No need to access production data",
     detail:
-      "DataForger provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs.",
+      "DataInceptor provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs.",
   },
   {
     id: "04",

@@ -14,13 +14,13 @@ import MySQLogo from "@/public/imgs/dataforger/MySQL_logo.png";
 import PostgreSQLogo from "@/public/imgs/dataforger/PostgreSQLogo.png";
 import Seamlessly from "@/public/imgs/dataforger/seamlessly.png";
 
-import DataForgerHero from "@/components/products/sections/dataforger/dataforger-hero";
-import DataForgerFeaturesCarousel from "@/components/products/sections/dataforger/dataforger-features-carousel";
-import DataForgerHighlightFeatures from "@/components/products/sections/dataforger/dataforger-highlight-features";
-import DataForgerDatabaseFeatures from "@/components/products/sections/dataforger/dataforger-database-features";
-import DataForgerCIFeatures from "@/components/products/sections/dataforger/dataforger-ci-features";
+import DataInceptorHero from "@/components/products/sections/dataforger/dataforger-hero";
+import DataInceptorFeaturesCarousel from "@/components/products/sections/dataforger/dataforger-features-carousel";
+import DataInceptorHighlightFeatures from "@/components/products/sections/dataforger/dataforger-highlight-features";
+import DataInceptorDatabaseFeatures from "@/components/products/sections/dataforger/dataforger-database-features";
+import DataInceptorCIFeatures from "@/components/products/sections/dataforger/dataforger-ci-features";
 
-export default function DataForger() {
+export default function DataInceptor() {
   const sectionRef = useRef<HTMLElement>(null);
   const [svgDimensions, setSvgDimensions] = useState<any>({
     width: 0,
@@ -45,12 +45,12 @@ export default function DataForger() {
 
   return (
     <section ref={sectionRef as any} className="relative overflow-hidden ">
-      <DataForgerHero />
-      <DataForgerFeaturesCarousel />
-      {/* <DataForgerHighlightFeatures /> */}
+      <DataInceptorHero />
+      <DataInceptorFeaturesCarousel />
+      {/* <DataInceptorHighlightFeatures /> */}
 
-      <DataForgerDatabaseFeatures />
-      <DataForgerCIFeatures />
+      <DataInceptorDatabaseFeatures />
+      <DataInceptorCIFeatures />
       <AIManagement />
     </section>
   );

@@ -23,7 +23,7 @@ export default function HomeProductsOverview() {
           <div className="hero-grid-item ">
             <Link href="/products/dataforger">
               <Image src={frame1} alt="dataforger" className="mb-4 w-full" />
-              {/* <h3 className="mb-2 font-extrabold">DataForger:</h3> */}
+              {/* <h3 className="mb-2 font-extrabold">DataInceptor:</h3> */}
               <p>
                 Streamlines data seeding for QA, Developers, CSM, PM, Sales, and
                 more.

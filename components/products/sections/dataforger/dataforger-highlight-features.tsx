@@ -3,7 +3,7 @@ import powerIco1 from "@/public/imgs/dataforger/powerIco.png";
 import powerIco2 from "@/public/imgs/dataforger/powerIco1.png";
 import powerIco3 from "@/public/imgs/dataforger/powerIco2.png";
 
-export default function DataForgerHighlightFeatures() {
+export default function DataInceptorHighlightFeatures() {
   return (
     <div className="dataforger-section lineWave_bg relative py-12">
       <div className="max-w-7xl mx-auto">
@@ -13,7 +13,7 @@ export default function DataForgerHighlightFeatures() {
           </span>
         </h2>
         <p className="w-full md:w-1/2 mx-auto my-8 text-center">
-          DataForger solves your data seeding problem, but what about
+          DataInceptor solves your data seeding problem, but what about
           environment conflicts? Here comes Nimbus.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-8 pt-6">

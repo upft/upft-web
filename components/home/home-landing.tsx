@@ -11,13 +11,13 @@ import HomeHero from "./sections/home-hero";
 import HomeProductsCircles from "./sections/home-products-circles";
 import HomeGeneralIntro from "./sections/home-general-intro";
 import VideoPlay from "./parts/video-play";
-import HomeDataForgerIntro from "./sections/home-dataforger-intro";
+import HomeDataInceptorIntro from "./sections/home-dataforger-intro";
 import HomeNimbusIntro from "./sections/home-nimbus-intro";
 import HomeIntegratedIntro from "./sections/home-integrated-intro";
 import HomeLoadLensIntro from "./sections/home-loadlens-intro";
 import HomeProductsOverview from "./sections/home-products-overview";
 import HomeBenefitsOverview from "./sections/home-benefits-overview";
-import DataForgerDatabaseFeatures from "../products/sections/dataforger/dataforger-database-features";
+import DataInceptorDatabaseFeatures from "../products/sections/dataforger/dataforger-database-features";
 import WhyFeaturesLists from "../why-upft/sections/why-features-lists";
 import featureItem1 from "@/public/imgs/dataforger/featureItem1.png";
 import featureItem2 from "@/public/imgs/dataforger/featureItem2.png";
@@ -47,7 +47,7 @@ export default function HomeLanding() {
       imgSrc: featureItem3,
       title: "No need to access production data",
       detail:
-        "DataForger provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs.",
+        "DataInceptor provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs.",
     },
     {
       id: "04",
@@ -99,7 +99,7 @@ export default function HomeLanding() {
           <WhyFeaturesSwiperLists listItems={items} />
         </div>
       </div>
-      <DataForgerDatabaseFeatures />
+      <DataInceptorDatabaseFeatures />
       <AIManagement />
     </section>
   );

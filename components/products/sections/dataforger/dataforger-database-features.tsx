@@ -4,7 +4,7 @@ import mongoIco from "@/public/imgs/dataforger/mongoIco.png";
 import MySQLogo from "@/public/imgs/dataforger/MySQL_logo.png";
 import PostgreSQLogo from "@/public/imgs/dataforger/PostgreSQLogo.png";
 
-export default function DataForgerDatabaseFeatures() {
+export default function DataInceptorDatabaseFeatures() {
   return (
     <div className="dataforger-section relative py-12">
       <div className="max-w-7xl mx-auto px-2">

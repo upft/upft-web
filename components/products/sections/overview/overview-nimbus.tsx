@@ -23,8 +23,8 @@ export default function OverviewNimbus() {
               <span className="px-4 md:px-8 custom-start-effect">Nimbus</span>
             </h2>
             <p className="px-4 md:px-8 mb-2 md:mb-6">
-              DataForger: Streamlines data seeding for QA, Developers, CSM, PM,
-              Sales, and more.
+              DataInceptor: Streamlines data seeding for QA, Developers, CSM,
+              PM, Sales, and more.
             </p>
             <ul className="list-disc pl-14 pr-8">
               <li className="mb-2 md:mb-6">
