@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-9 lg:col-span-9 sm:col-span-12 grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-3">
+            <div className="md:col-span-9 lg:col-span-9 sm:col-span-12 grid grid-cols-2 md:grid-cols-3 sm:grid-cols-2 gap-3">
               {/* 2nd block */}
               <div className="text-sm">
                 <div className="text-gray-200 font-medium mb-1">Company</div>
@@ -42,7 +42,7 @@ export default function Footer() {
                       About Us
                     </Link>
                   </li>
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <Link
                       href="/why-upft"
                       rel="noopener noreferrer"
@@ -50,7 +50,7 @@ export default function Footer() {
                     >
                       Why UPFT
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="mb-1">
                     <Link
                       href="https://wellfound.com/company/hakkaren/jobs"
@@ -64,43 +64,6 @@ export default function Footer() {
                 </ul>
               </div>
               {/* 3rd block */}
-              <div className="text-sm">
-                <div className="text-gray-200 font-medium mb-1">Products</div>
-                <ul>
-                  {/* <li className="mb-1">
-                    <Link
-                      href="/products/overview"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Overview
-                    </Link>
-                  </li> */}
-                  <li className="mb-1">
-                    <Link
-                      href="/products/dataforger"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      DataForger
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/products/nimbus"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Nimbus
-                    </Link>
-                  </li>
-                  {/* <li className="mb-1">
-                    <Link
-                      href="/products/loadlens"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      LoadLens
-                    </Link>
-                  </li> */}
-                </ul>
-              </div>
 
               {/* 4th block */}
               <div className="text-sm">
@@ -114,14 +77,14 @@ export default function Footer() {
                       Blog
                     </Link>
                   </li>
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <Link
                       href="/how-it-works"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       How it works
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="mb-1">
                     <Link
                       href="https://learn.hakkaren.co"

@@ -125,7 +125,7 @@ export default function Header() {
                         <div>About Us</div>
                       </Link>
                     </li>
-                    <li className="flex flex-col justify-center items-center">
+                    {/* <li className="flex flex-col justify-center items-center">
                       <Link
                         href="/why-upft"
                         className="flex flex-col text-center text-2xl font-medium w-full header-menu-btn py-2"
@@ -141,148 +141,12 @@ export default function Header() {
                         </div>
                         <div>Why UPFT</div>
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
               </li>
-              <li
-                onClick={(e) => {
-                  e.preventDefault();
-                  setProductsDropdownOpen(true);
-                  setResourcesDropdownOpen(false);
-                  setCompanyDropdownOpen(false);
-                }}
-              >
-                <button className="header-menu-btn text-white-600 font-bold hover:font-large hover:underline hover:underline-offset-4 md:px-2 xl:px-4 py-3 flex items-center transition duration-150 ease-in-out">
-                  Products
-                  {productsDropdownOpen ? (
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-6 h-6 p-1"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M12.53 7.72a.75.75 0 011.06 0l7.5 7.5a.75.75 0 01-1.06 1.06L12 9.31 5.03 16.28a.75.75 0 01-1.06-1.06l7.5-7.5z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  ) : (
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-6 h-6 p-1"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  )}
-                </button>
-                <nav
-                  ref={productsDropdown}
-                  className="absolute top-20 w-3/4 left-[13.33%] block overflow-hidden transition-all duration-300 ease-in-out"
-                  style={
-                    productsDropdownOpen
-                      ? {
-                          maxHeight: "600px",
-                          opacity: 1,
-                        }
-                      : { maxHeight: 0, opacity: 0.8 }
-                  }
-                >
-                  <ul className="grid grid-cols-3 bg-gray-900 px-4 py-8 divide-x">
-                    {/* <li className="flex flex-col justify-center items-center">
-                      <Link
-                        href="/products/overview"
-                        className="flex flex-col text-center text-2xl font-medium w-full header-menu-btn py-2"
-                        onClick={() => setProductsDropdownOpen(false)}
-                      >
-                        <div className="mx-auto">
-                          <Image
-                            className="rounded-full p-4"
-                            src={overviewIcon}
-                            width={120}
-                            alt="overview"
-                          />
-                        </div>
-                        <div className="text-center text-2xl">Overview</div>
-                        <div className="text-center text-sm">
-                          View our products
-                        </div>
-                      </Link>
-                    </li> */}
-                    <li className="flex flex-col justify-center items-center">
-                      <Link
-                        href="/products/dataforger"
-                        className="flex flex-col text-center text-2xl font-medium w-full header-menu-btn py-2"
-                        onClick={() => setProductsDropdownOpen(false)}
-                      >
-                        <div className="mx-auto">
-                          <Image
-                            className="rounded-full p-4"
-                            src={dataforgerIcon}
-                            width={120}
-                            alt="dataforger"
-                          />
-                        </div>
-                        <div className="text-center text-2xl">DataForger</div>
-                        <div className="text-center text-sm">
-                          Test Data Seeding Made Easy
-                        </div>
-                      </Link>
-                    </li>
-                    <li className="flex flex-col justify-center items-center">
-                      <Link
-                        href="/products/nimbus"
-                        className="flex flex-col text-center text-2xl font-medium w-full header-menu-btn py-2"
-                        onClick={() => setProductsDropdownOpen(false)}
-                      >
-                        <div className="mx-auto">
-                          <Image
-                            className="rounded-full p-4"
-                            src={nimbusIcon}
-                            width={120}
-                            alt="nimbus"
-                          />
-                        </div>
-                        <div className="text-center text-2xl">Nimbus</div>
-                        <div className="text-center text-sm">
-                          Ephemeral Environment
-                        </div>
-                      </Link>
-                    </li>
-                    {/* <li className="flex justify-center items-center">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-6 h-6 text-purple-800 m-2"
-                      >
-                        <path d="M16.5 7.5h-9v9h9v-9z" />
-                        <path
-                          fillRule="evenodd"
-                          d="M8.25 2.25A.75.75 0 019 3v.75h2.25V3a.75.75 0 011.5 0v.75H15V3a.75.75 0 011.5 0v.75h.75a3 3 0 013 3v.75H21A.75.75 0 0121 9h-.75v2.25H21a.75.75 0 010 1.5h-.75V15H21a.75.75 0 010 1.5h-.75v.75a3 3 0 01-3 3h-.75V21a.75.75 0 01-1.5 0v-.75h-2.25V21a.75.75 0 01-1.5 0v-.75H9V21a.75.75 0 01-1.5 0v-.75h-.75a3 3 0 01-3-3v-.75H3A.75.75 0 013 15h.75v-2.25H3a.75.75 0 010-1.5h.75V9H3a.75.75 0 010-1.5h.75v-.75a3 3 0 013-3h.75V3a.75.75 0 01.75-.75zM6 6.75A.75.75 0 016.75 6h10.5a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V6.75z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
 
-                      <Link
-                        href="/products/loadlens"
-                        className="flex font-medium w-full header-menu-btn py-2"
-                        onClick={() => setProductsDropdownOpen(false)}
-                      >
-                        LoadLens
-                      </Link>
-                    </li> */}
-                  </ul>
-                </nav>
-              </li>
-              <li>
+              {/* <li>
                 {" "}
                 <Link
                   href="/pricing"
@@ -290,8 +154,8 @@ export default function Header() {
                 >
                   Pricing
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 {" "}
                 <Link
                   href="/solutions"
@@ -299,7 +163,7 @@ export default function Header() {
                 >
                   Solutions
                 </Link>
-              </li>
+              </li> */}
               <li
                 onClick={(e) => {
                   e.preventDefault();
@@ -368,7 +232,7 @@ export default function Header() {
                         <div>Blog</div>
                       </Link>
                     </li>
-                    <li className="flex flex-col justify-center items-center">
+                    {/* <li className="flex flex-col justify-center items-center">
                       <Link
                         href="/how-it-works"
                         className="flex flex-col text-center text-2xl font-medium w-full header-menu-btn py-2"
@@ -383,7 +247,7 @@ export default function Header() {
                         </div>
                         <div>How it works</div>
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="flex flex-col justify-center items-center">
                       <Link
                         href="https://learn.hakkaren.co"
@@ -407,7 +271,7 @@ export default function Header() {
           </nav>
           <nav className="hidden min-[976px]:flex xl:grow">
             <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
+              {/* <li>
                 <Link
                   href="https://app.hakkaren.co/auth/login"
                   className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
@@ -428,13 +292,10 @@ export default function Header() {
                     />
                   </svg>
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link
-                  href="https://app.hakkaren.co/auth/signup"
-                  className="btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 ml-3"
-                >
-                  Sign up
+                <button className="btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 ml-3">
+                  Join Waitlist
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -449,7 +310,7 @@ export default function Header() {
                       d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                </Link>
+                </button>
               </li>
             </ul>
           </nav>

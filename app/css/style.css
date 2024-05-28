@@ -328,7 +328,6 @@ div.scroll-bar-effect::-webkit-scroll-bar-track {
   background-image: url("/imgs/home/Wave_bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 475px;
   align-items: end;
 }
 .hero-section-btn {
