@@ -39,7 +39,7 @@ export default function WhyFeaturesSwiperLists({
               <div>
                 <Image src={item.imgSrc} height={100} alt="fitem1" />
               </div>
-              <div className=" text-right">{item.id}</div>
+              {/* <div className=" text-right">{item.id}</div> */}
             </div>
             <div className="w-full mt-2">
               <div className="text-2xl font-bold py-4">{item.title}</div>

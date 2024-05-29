@@ -12,16 +12,12 @@ export default function Footer() {
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20">
             {/* 1st block */}
             <div className="md:col-span-3 lg:col-span-3 sm:col-span-12">
-              <div className="mb-2">
+              <div className="mb-2 font-poetsen font-bold text-2xl">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="UPFT">
-                  <Image
-                    className="rounded-full"
-                    src={logimg}
-                    width={150}
-                    alt="UPFT"
-                  />
-                </Link>
+                DataInceptor
+                {/* <Link href="/" className="inline-block" aria-label="UPFT">
+                  <Image className="" src={logimg} width={150} alt="UPFT" />
+                </Link> */}
               </div>
               <div className="text-gray-400 text-sm">
                 Built with &#10084;&#65039; in Boston

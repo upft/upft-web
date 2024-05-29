@@ -3,7 +3,11 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
-export default function MobileMenu() {
+export default function MobileMenu({
+  handleShowModal,
+}: {
+  handleShowModal: Function;
+}) {
   const trigger = useRef<HTMLButtonElement>(null);
   const mobileNav = useRef<HTMLDivElement>(null);
 
@@ -292,7 +296,10 @@ export default function MobileMenu() {
             </Link>
           </li> */}
           <li className="bg-gray-900 w-full pt-3 pb-8">
-            <button className="btn-sm shadow-lg shadow-indigo-600/100 w-full rounded border-white text-white bg-purple-600 hover:bg-purple-700">
+            <button
+              onClick={() => handleShowModal()}
+              className="btn-sm shadow-lg shadow-indigo-600/100 w-full rounded border-white text-white bg-purple-600 hover:bg-purple-700"
+            >
               Join Waitlist
             </button>
           </li>

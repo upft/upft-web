@@ -1,6 +1,10 @@
 import HeroCarousel from "@/components/home/parts/hero-carousel";
 
-export default function HomeHero() {
+export default function HomeHero({
+  handleShowModal,
+}: {
+  handleShowModal: Function;
+}) {
   return (
     <div className="max-w-7xl mx-auto relative">
       {/* Illustration behind hero content */}
@@ -19,7 +23,10 @@ export default function HomeHero() {
 
           <div className="max-w-xs mt-4 mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
-              <button className="w-full lg:w-fit btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 py-3 px-6 shadow-lg shadow-indigo-600/100">
+              <button
+                onClick={() => handleShowModal()}
+                className="w-full lg:w-fit btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 py-3 px-6 shadow-lg shadow-indigo-600/100"
+              >
                 <svg
                   className="mr-2"
                   width="21"

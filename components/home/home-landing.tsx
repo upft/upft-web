@@ -1,9 +1,10 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Image from "next/image";
 
 import logo from "@/public/imgs/logos/Logo.svg";
-import dfFlow from "@/public/imgs/dataforger/df-flow.png";
+import dfFlow from "@/public/imgs/dataforger/Dataforger v2.png";
+import dfFlowAT from "@/public/imgs/dataforger/dataincep1.png";
 import playIco from "@/public/imgs/home/playIco.svg";
 
 import AIManagement from "../ui/ai-management";
@@ -24,43 +25,55 @@ import featureItem2 from "@/public/imgs/dataforger/featureItem2.png";
 import featureItem3 from "@/public/imgs/dataforger/featureItem3.png";
 import featureItem4 from "@/public/imgs/dataforger/featureItem4.png";
 import WhyFeaturesSwiperLists from "../why-upft/sections/why-features-swiper-lists";
+import JoinBetaPopup from "../misc/join-beta-popup";
+
+const items = [
+  {
+    id: "01",
+    imgSrc: featureItem1,
+    title: "No Masking",
+    detail:
+      "Cater to businesses of all sizes, with capabilities that grow with your company.",
+  },
+  {
+    id: "02",
+    imgSrc: featureItem2,
+    title: "No Synthesizing",
+    detail:
+      "Intuitive design makes navigation and usage effortless for both technical and non-technical users.",
+  },
+  {
+    id: "03",
+    imgSrc: featureItem3,
+    title: "No need to access production data",
+    detail:
+      "DataInceptor provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs.",
+  },
+  {
+    id: "04",
+    imgSrc: featureItem4,
+    title: "Purely based on your schema",
+    detail:
+      "Nimbus offers ephemeral environments that ensure isolated, conflict-free testing.",
+  },
+];
 
 export default function HomeLanding() {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const items = [
-    {
-      id: "01",
-      imgSrc: featureItem1,
-      title: "No Masking",
-      detail:
-        "Cater to businesses of all sizes, with capabilities that grow with your company.",
-    },
-    {
-      id: "02",
-      imgSrc: featureItem2,
-      title: "No Synthesizing",
-      detail:
-        "Intuitive design makes navigation and usage effortless for both technical and non-technical users.",
-    },
-    {
-      id: "03",
-      imgSrc: featureItem3,
-      title: "No need to access production data",
-      detail:
-        "DataInceptor provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs.",
-    },
-    {
-      id: "04",
-      imgSrc: featureItem4,
-      title: "Purely based on your schema",
-      detail:
-        "Nimbus offers ephemeral environments that ensure isolated, conflict-free testing.",
-    },
-  ];
+  const [showModal, setShowModal] = useState(false);
+
+  const handleShowModal = () => {
+    setShowModal(true);
+  };
+
+  const handleHideModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <section>
       <div className="w-full hero-section-1">
-        <HomeHero />
+        <HomeHero handleShowModal={handleShowModal} />
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="max-w-7xl mx-auto text-center">
@@ -70,19 +83,14 @@ export default function HomeLanding() {
           </video>
         </div>
       </div>
-      <div className="hero-section relative py-12 my-0 lg:my-16">
-        <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 p-4 lg:p-8">
-          <WhyFeaturesLists listItems={items} />
-        </div>
-        <div className="w-full block py-2 lg:hidden lg:p-8">
-          <WhyFeaturesSwiperLists listItems={items} />
-        </div>
+      <div className="hero-section relative  my-0 lg:my-16">
+        <HomeBenefitsOverview />
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5 px-2">
           <div className="max-w-7xl mx-auto text-center">
             <video ref={videoRef} loop autoPlay muted>
-              <source src={"/videos/video.mp4"} type="video/mp4" />
+              <source src={"/videos/demo.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -92,7 +100,16 @@ export default function HomeLanding() {
         </div>
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
-        <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 p-4 lg:p-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="hero-left-content">
+            <h2 className="text-white">
+              <span className="custom-start-lg-effect pl-4 lg:pl-12">
+                Benefits
+              </span>
+            </h2>
+          </div>
+        </div>
+        <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 my-12">
           <WhyFeaturesLists listItems={items} />
         </div>
         <div className="w-full block py-2 lg:hidden lg:p-8">
@@ -100,7 +117,9 @@ export default function HomeLanding() {
         </div>
       </div>
       <DataInceptorDatabaseFeatures />
-      <AIManagement />
+      <AIManagement handleShowModal={handleShowModal} />
+
+      {showModal && <JoinBetaPopup onHide={handleHideModal} />}
     </section>
   );
 }
