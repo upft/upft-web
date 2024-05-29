@@ -4,8 +4,10 @@ export const metadata = {
 };
 
 import HomeLanding from "@/components/home/home-landing";
+import { redirect } from "next/navigation";
 
 export default function Home() {
+  redirect("/datainceptor");
   return (
     <>
       <HomeLanding />
