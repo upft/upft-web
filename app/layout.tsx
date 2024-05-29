@@ -18,8 +18,8 @@ const architects_daughter = Architects_Daughter({
 });
 
 export const metadata = {
-  title: "UPFT",
-  description: "Unified Platform For Testing",
+  title: "DataInceptor",
+  description: "Unified Platform For Testing, Inc.",
   icons: [{ rel: "icon", url: "favicon.ico" }],
 };
 
