@@ -85,6 +85,12 @@ export default function HomeLanding() {
       </div>
       <div className="hero-section relative  my-0 lg:my-16">
         <HomeBenefitsOverview />
+        <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 my-12">
+          <WhyFeaturesLists listItems={items} />
+        </div>
+        <div className="w-full block py-2 lg:hidden lg:p-8">
+          <WhyFeaturesSwiperLists listItems={items} />
+        </div>
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5 px-2">
