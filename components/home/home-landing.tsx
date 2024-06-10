@@ -112,7 +112,7 @@ export default function HomeLanding() {
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5 px-2">
           <div className="max-w-7xl mx-auto text-center">
-            <video ref={videoRef} loop autoPlay muted playsInline>
+            <video ref={videoRef} controls autoPlay muted playsInline>
               <source src={"/videos/demo.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
