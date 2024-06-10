@@ -563,3 +563,7 @@ div.scroll-bar-effect::-webkit-scroll-bar-track {
 .color-green {
   color: #388dbc !important;
 }
+
+video::-webkit-media-controls-start-playback-button {
+  display: none;
+}

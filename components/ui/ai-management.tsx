@@ -1,4 +1,34 @@
-import Link from "next/link";
+import { useState, useEffect } from "react";
+import { useSpring, animated } from "react-spring";
+
+const roles = [
+  { text: "Software Engineer", color: "text-blue-300" },
+  { text: "QA Engineer", color: "text-green-300" },
+  { text: "Product Manager", color: "text-yellow-300" },
+  { text: "Customer Support", color: "text-purple-300" },
+  { text: "Sales", color: "text-teal-300" },
+];
+
+const SlideAnimation = () => {
+  const [index, setIndex] = useState(0);
+
+  const props = useSpring({
+    from: { transform: "translateY(100%)" },
+    to: { transform: "translateY(0%)" },
+    config: { duration: 1500 },
+    reset: true,
+    onRest: () =>
+      setTimeout(() => setIndex((prev) => (prev + 1) % roles.length), 1500),
+  });
+
+  return (
+    <div className="relative h-12 overflow-hidden flex items-center justify-center">
+      <animated.div style={props} className="absolute">
+        <span className={`${roles[index].color}`}>{roles[index].text}</span>
+      </animated.div>
+    </div>
+  );
+};
 
 export default function AIManagement({
   handleShowModal,
@@ -12,13 +42,8 @@ export default function AIManagement({
           DataInceptor
         </h2>
         <h3 className="text-white text-center mb-12">
-          Whether you're a{" "}
-          <span className="text-blue-300">Software Engineer</span>,{" "}
-          <span className="text-green-300">QA Engineer</span>,{" "}
-          <span className="text-yellow-300">Product Manager</span>,{" "}
-          <span className="text-purple-300">Customer Support</span>, or{" "}
-          <span className="text-teal-300">Sales</span>, just tell our AI what
-          data or scenario you need, and we'll generate it for you.
+          Whether you're a <SlideAnimation /> just tell our AI what data or
+          scenario you need, and we'll generate it for you.
         </h3>
 
         <button

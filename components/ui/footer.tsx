@@ -49,7 +49,7 @@ export default function Footer() {
                   </li> */}
                   <li className="mb-1">
                     <Link
-                      href="https://wellfound.com/company/hakkaren/jobs"
+                      href="https://wellfound.com/company/upft-inc/jobs"
                       rel="noopener noreferrer"
                       target="_blank"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
@@ -62,43 +62,14 @@ export default function Footer() {
               {/* 3rd block */}
 
               {/* 4th block */}
-              <div className="text-sm">
-                <div className="text-gray-200 font-medium mb-1">Resources</div>
-                <ul>
-                  <li className="mb-1">
-                    <Link
-                      href="/blog"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Blog
-                    </Link>
-                  </li>
-                  {/* <li className="mb-1">
-                    <Link
-                      href="/how-it-works"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      How it works
-                    </Link>
-                  </li> */}
-                  <li className="mb-1">
-                    <Link
-                      href="https://learn.hakkaren.co"
-                      target="_blank"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Documentations
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+
               {/* 5th block */}
               <div className="text-sm">
                 <div className="text-gray-200 font-medium mb-1">Social</div>
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="https://wellfound.com/company/hakkaren"
+                      href="https://wellfound.com/company/upft-inc"
                       target="_blank"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -107,7 +78,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="https://www.linkedin.com/company/hakkaren/about/"
+                      href="https://www.linkedin.com/company/upftinc/about/"
                       target="_blank"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >

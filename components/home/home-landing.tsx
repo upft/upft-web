@@ -27,34 +27,51 @@ import featureItem4 from "@/public/imgs/dataforger/featureItem4.png";
 import WhyFeaturesSwiperLists from "../why-upft/sections/why-features-swiper-lists";
 import JoinBetaPopup from "../misc/join-beta-popup";
 
-const items = [
+const manualFeaturesItems = [
   {
     id: "01",
     imgSrc: featureItem1,
-    title: "No Masking",
+    title: "Protect your data privacy",
     detail:
-      "Cater to businesses of all sizes, with capabilities that grow with your company.",
+      "DataInceptor doesn't ask for access to your database that contains customers' data",
   },
   {
     id: "02",
     imgSrc: featureItem2,
-    title: "No Synthesizing",
+    title: "Ephemeral Environment",
     detail:
-      "Intuitive design makes navigation and usage effortless for both technical and non-technical users.",
+      "DataInceptor offers an ephemeral database environment so that you can enjoy a conflict-free testing process",
   },
   {
     id: "03",
     imgSrc: featureItem3,
-    title: "No need to access production data",
+    title: "Powered by GPT and Claude",
     detail:
-      "DataInceptor provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs.",
+      "DataInceptor utilizes the latest AI models to analyze the schema and generate the data",
+  },
+];
+
+const autoFeaturesItems = [
+  {
+    id: "01",
+    imgSrc: featureItem4,
+    title: "API Endpoints Creation",
+    detail:
+      "Seamlessly bootstrap any scenarios for your automated tests by calling an API to seed the data",
   },
   {
-    id: "04",
-    imgSrc: featureItem4,
-    title: "Purely based on your schema",
+    id: "02",
+    imgSrc: featureItem3,
+    title: "Easy Integration",
     detail:
-      "Nimbus offers ephemeral environments that ensure isolated, conflict-free testing.",
+      "DataInceptor offers simple database connections so that you can easily integrate it into your CI pipeline",
+  },
+  {
+    id: "03",
+    imgSrc: featureItem2,
+    title: "Flexible Customization",
+    detail:
+      "DataInceptor provides highly customizable data seeding options, allowing users to create specific scenarios and datasets tailored to their unique testing needs",
   },
 ];
 
@@ -77,7 +94,7 @@ export default function HomeLanding() {
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="max-w-7xl mx-auto text-center">
-          <video ref={videoRef} loop autoPlay muted>
+          <video ref={videoRef} loop autoPlay muted playsInline>
             <source src={"/videos/video.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -86,16 +103,16 @@ export default function HomeLanding() {
       <div className="hero-section relative  my-0 lg:my-16">
         <HomeBenefitsOverview />
         <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 my-12">
-          <WhyFeaturesLists listItems={items} />
+          <WhyFeaturesLists listItems={manualFeaturesItems} />
         </div>
         <div className="w-full block py-2 lg:hidden lg:p-8">
-          <WhyFeaturesSwiperLists listItems={items} />
+          <WhyFeaturesSwiperLists listItems={manualFeaturesItems} />
         </div>
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5 px-2">
           <div className="max-w-7xl mx-auto text-center">
-            <video ref={videoRef} loop autoPlay muted>
+            <video ref={videoRef} loop autoPlay muted playsInline>
               <source src={"/videos/demo.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -106,20 +123,11 @@ export default function HomeLanding() {
         </div>
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="hero-left-content">
-            <h2 className="text-white">
-              <span className="custom-start-lg-effect pl-4 lg:pl-12">
-                Benefits
-              </span>
-            </h2>
-          </div>
-        </div>
         <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 my-12">
-          <WhyFeaturesLists listItems={items} />
+          <WhyFeaturesLists listItems={autoFeaturesItems} />
         </div>
         <div className="w-full block py-2 lg:hidden lg:p-8">
-          <WhyFeaturesSwiperLists listItems={items} />
+          <WhyFeaturesSwiperLists listItems={autoFeaturesItems} />
         </div>
       </div>
       <DataInceptorDatabaseFeatures />
