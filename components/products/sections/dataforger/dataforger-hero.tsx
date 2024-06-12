@@ -1,5 +1,5 @@
 import playIco from "@/public/imgs/home/playIco.svg";
-import dataforgerSvg from "@/public/imgs/home/DataInceptor.svg";
+import dataforgerSvg from "@/public/imgs/home/DataForger.svg";
 import playBtn from "@/public/imgs/dataforger/playBtn.png";
 import ProductsVideoPlay from "../products-video-play";
 
