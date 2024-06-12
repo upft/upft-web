@@ -48,7 +48,7 @@ export default function HowDFBtn({ setChooseType, chooseType }: HowDFBtnProps) {
           </clipPath>
         </defs>
       </svg>
-      DataForger
+      DataInceptor
     </button>
   );
 }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import dataforger_svg from "@/public/imgs/home/DataForger.svg";
+import dataforger_svg from "@/public/imgs/home/DataInceptor.svg";
 import nimbus_svg from "@/public/imgs/home/Nimbus.svg";
 // import loadlens_svg from "@/public/imgs/home/LoadLens.svg";
 import comingSoon from "@/public/imgs/home/comingSoon.png";
@@ -27,7 +27,7 @@ export default function HomeProductsCircles() {
               <Image
                 src={dataforger_svg}
                 className="duration-500 ease-linear hero-section-icon"
-                alt="DataForger"
+                alt="DataInceptor"
               />
             </div>
           </div>

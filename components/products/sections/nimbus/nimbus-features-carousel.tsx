@@ -17,7 +17,7 @@ export default function NimbusFeaturesCarousel() {
     {
       id: "02",
       imgsrc: nimbusItemImg2,
-      title: "Integrates with DataForger",
+      title: "Integrates with DataInceptor",
       detail: "Creates a powerful platform for streamlined testing.",
     },
     // {

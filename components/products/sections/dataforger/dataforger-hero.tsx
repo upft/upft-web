@@ -1,20 +1,20 @@
 import playIco from "@/public/imgs/home/playIco.svg";
-import dataforgerSvg from "@/public/imgs/home/DataForger.svg";
+import dataforgerSvg from "@/public/imgs/home/DataInceptor.svg";
 import playBtn from "@/public/imgs/dataforger/playBtn.png";
 import ProductsVideoPlay from "../products-video-play";
 
-export default function DataForgerHero() {
+export default function DataInceptorHero() {
   return (
     <div className="dataforger-section relative py-4 md:py-12 pt-2 mt-12">
       <div className="hidden md:block wave-bg absolute top-0 left-0 w-full h-full opacity-30 -z-10"></div>
       <div className="max-w-4xl mx-auto text-center px-2">
         <h1 className="font-extrabold mb-4">
-          <span className="custom-start-lg-effect px-8">DataForger</span>
+          <span className="custom-start-lg-effect px-8">DataInceptor</span>
         </h1>
         <p className="px-6 py-4 md:py-8 mb-4">
           Ever want to test a specific user or scenario, but data seeding is a
           pain? Tired of constantly requesting data seeding to developers?
-          DataForger solves this and more.
+          DataInceptor solves this and more.
         </p>
         <div data-aos="fade-up" data-aos-delay="400">
           <a
@@ -35,7 +35,7 @@ export default function DataForgerHero() {
                 fill="white"
               />
             </svg>
-            Try DataForger Free
+            Try DataInceptor Free
           </a>
         </div>
       </div>

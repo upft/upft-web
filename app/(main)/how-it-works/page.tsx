@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 
 import AIManagement from "@/components/ui/ai-management";
-import HowDataForger from "@/components/how-it-works/sections/how-dataforger";
+import HowDataInceptor from "@/components/how-it-works/sections/how-dataforger";
 import HowLoadLens from "@/components/how-it-works/sections/how-loadlens";
 import HowNimbus from "@/components/how-it-works/sections/how-nimbus";
 import HowVideoPlay from "@/components/how-it-works/sections/how-video-play";
@@ -92,7 +92,7 @@ export default function HowItWorks() {
         </div>
       </div>
 
-      {chooseType == "dataforger" && <HowDataForger />}
+      {chooseType == "dataforger" && <HowDataInceptor />}
       {/* {chooseType == "loadlens" && <HowLoadLens />} */}
       {chooseType == "nimbus" && <HowNimbus />}
       {/* <HowVideoPlay /> */}

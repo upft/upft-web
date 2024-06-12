@@ -26,8 +26,8 @@ export default function HomeIntegratedIntro() {
             </p>
             <ul className="list-disc px-4 lg:pl-8 pr-8">
               <li className="mb-2 lg:mb-6">
-                Seamless integration with DataForger: Easily set up large data
-                scenarios with DataForger.
+                Seamless integration with DataInceptor: Easily set up large data
+                scenarios with DataInceptor.
               </li>
               <li className="mb-2 lg:mb-6">
                 Environments setup with Nimbus: Define your environment

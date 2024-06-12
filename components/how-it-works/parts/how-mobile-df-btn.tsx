@@ -34,7 +34,7 @@ export default function HowMobileDFBtn() {
           </clipPath>
         </defs>
       </svg>
-      DataForger
+      DataInceptor
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

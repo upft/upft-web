@@ -50,7 +50,7 @@ export default function Mission() {
                     specific scenarios?
                   </h3>
                   <p className="text-l text-gray-400 mb-4">
-                    DataForger is engineered for intuitive use at its core,
+                    DataInceptor is engineered for intuitive use at its core,
                     ensuring data seeding is within everyone's reach, regardless
                     of technical expertise. Empower your entire team to
                     effortlessly craft any desired test scenario.
@@ -85,9 +85,9 @@ export default function Mission() {
                   <h3 className="h3 mb-3">Still testing on live production?</h3>
                   <p className="text-xl text-gray-400 mb-4">
                     Are you stuck testing on production because it's just
-                    easier? Let DataForger simplify things for you. We make test
-                    data setup a breeze, so you can say goodbye to high-risk
-                    testing in live production environments.
+                    easier? Let DataInceptor simplify things for you. We make
+                    test data setup a breeze, so you can say goodbye to
+                    high-risk testing in live production environments.
                   </p>
                 </div>
               </div>

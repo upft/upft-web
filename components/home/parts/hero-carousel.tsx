@@ -2,7 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 import CarouselItemBg from "@/public/imgs/home/CarouselItemBg.png";
-import DataForgerIco from "@/public/imgs/home/DataForger.svg";
+import DataInceptorIco from "@/public/imgs/home/DataInceptor.svg";
 // import loadlensIco from "@/public/imgs/home/LoadLens.svg";
 import comingSoon from "@/public/imgs/home/comingSoon.png";
 import NimbusIco from "@/public/imgs/home/Nimbus.svg";
@@ -48,7 +48,7 @@ export default function HeroCarousel() {
                 alt="item1"
               />
               <div className="hero-carousel-item-overload">
-                <Image src={DataForgerIco} height={80} alt="dataforger" />
+                <Image src={DataInceptorIco} height={80} alt="dataforger" />
               </div>
             </div>
           </Link>
@@ -93,7 +93,7 @@ export default function HeroCarousel() {
                 alt="item1"
               />
               <div className="hero-carousel-item-overload">
-                <Image src={DataForgerIco} height={80} alt="dataforger" />
+                <Image src={DataInceptorIco} height={80} alt="dataforger" />
               </div>
             </div>
           </Link>
@@ -140,7 +140,7 @@ export default function HeroCarousel() {
             />
             <div className="hero-carousel-item-overload">
               <Image
-                src={DataForgerIco}
+                src={DataInceptorIco}
                 height={80}
                 alt="dataforger"
               />

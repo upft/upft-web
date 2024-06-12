@@ -2,6 +2,9 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/grid";
+import "swiper/css/pagination";
 
 export default function WhyFeaturesSwiperLists({
   listItems,
@@ -36,7 +39,6 @@ export default function WhyFeaturesSwiperLists({
               <div>
                 <Image src={item.imgSrc} height={100} alt="fitem1" />
               </div>
-              <div className=" text-right">{item.id}</div>
             </div>
             <div className="w-full mt-2">
               <div className="text-2xl font-bold py-4">{item.title}</div>

@@ -59,7 +59,8 @@ module.exports = {
         "bungee-spice": ['Bungee Spice', "cursive"],
         rubik: ['Rubik', "sans-serif"],
         roboto: [ 'Roboto Mono', "monospace"],
-        "source-code":['Source Code Pro', "monospace"]
+        "source-code":['Source Code Pro', "monospace"],
+        poetsen: ["Poetsen One", "cursive"]
       },
       fontSize: {
         xs: "0.75rem",

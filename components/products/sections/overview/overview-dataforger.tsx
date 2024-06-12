@@ -1,7 +1,7 @@
 import Image from "next/image";
 import mainCode from "@/public/imgs/products/main.png";
 
-export default function OverviewDataForger() {
+export default function OverviewDataInceptor() {
   return (
     <div className="products-section bg-heavy-blue relative py-10 md:py-20 ">
       <div className="max-w-7xl mx-auto ">
@@ -9,12 +9,12 @@ export default function OverviewDataForger() {
           <div className="hero-left-content px-4 md:px-8  order-1 md:order-1">
             <h2 className=" mb-2 md:mb-6">
               <span className="px-4 md:px-8 custom-start-effect">
-                DataForger
+                DataInceptor
               </span>
             </h2>
             <p className="px-4 md:px-8 mb-2 md:mb-6">
-              DataForger: Streamlines data seeding for QA, Developers, CSM, PM,
-              Sales, and more.
+              DataInceptor: Streamlines data seeding for QA, Developers, CSM,
+              PM, Sales, and more.
             </p>
             <ul className="list-disc pl-14 pr-8">
               <li className="mb-2 md:mb-6">

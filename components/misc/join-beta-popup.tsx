@@ -29,7 +29,9 @@ export default function JoinBetaPopup({ onHide }: { onHide: Function }) {
             className="bg-gray-800 border-0 rounded-lg shadow-lg relative flex flex-col w-full outline-none focus:outline-none"
           >
             <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-              <h3 className="text-3xl font-semibold text-white">Join Beta!</h3>
+              <h3 className="text-3xl font-semibold text-white">
+                Join Waitlist!
+              </h3>
               <button
                 className="p-1 ml-auto bg-transparent border-0 text-white float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                 onClick={() => onHide()}
@@ -42,7 +44,7 @@ export default function JoinBetaPopup({ onHide }: { onHide: Function }) {
 
             <div className="relative border-b max-w-full">
               <iframe
-                src="https://ur3yc6h05b7.typeform.com/to/mc9VlBUW"
+                src="https://ur3yc6h05b7.typeform.com/to/ICvFkvR4"
                 className="w-full aspect-video"
               />
             </div>

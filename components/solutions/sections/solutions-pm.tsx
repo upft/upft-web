@@ -23,7 +23,7 @@ export default function SolutionsPM() {
               precarious; it's a short-term fix fraught with privacy risks.
             </p>
             <p className="my-8 px-4 md:px-8">
-              This is where DataForger and Nimbus come into play. DataForger
+              This is where DataInceptor and Nimbus come into play. DataInceptor
               empowers you to create realistic data scenarios without touching
               actual customer data and with zero technical hassle. Nimbus offers
               you your own ephemeral environment for isolated testing. Together,
@@ -56,9 +56,9 @@ export default function SolutionsPM() {
               replicate issues without an appropriate data setup.
             </p>
             <p className="my-8 px-4 md:px-8">
-              DataForger and Nimbus are the solutions to this predicament. They
-              enable Customer Support Managers to easily replicate customer
-              scenarios without breaching data privacy. DataForger simplifies
+              DataInceptor and Nimbus are the solutions to this predicament.
+              They enable Customer Support Managers to easily replicate customer
+              scenarios without breaching data privacy. DataInceptor simplifies
               the data setup process, while Nimbus provides isolated
               environments for accurate replication of bugs. This streamlined
               approach not only respects customer privacy but also enhances the

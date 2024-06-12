@@ -35,7 +35,7 @@ export default function HowNimbus() {
               </span>
             </h2>
             <p className="py-6 pr-8">
-              You can connect to the existing DataForger database or start an
+              You can connect to the existing DataInceptor database or start an
               empty database
             </p>
           </div>

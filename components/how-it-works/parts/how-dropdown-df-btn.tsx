@@ -52,7 +52,7 @@ export default function HowDFDropdownBtn({
           </clipPath>
         </defs>
       </svg>
-      DataForger
+      DataInceptor
     </button>
   );
 }

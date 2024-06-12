@@ -7,7 +7,7 @@ export default function WhyCompareTable() {
             Feature/Aspect
           </th>
           <th scope="col" className="px-8 py-5">
-            DataForger
+            DataInceptor
           </th>
           <th scope="col" className="px-8 py-5">
             Release

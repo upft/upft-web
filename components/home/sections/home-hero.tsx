@@ -1,8 +1,12 @@
 import HeroCarousel from "@/components/home/parts/hero-carousel";
 
-export default function HomeHero() {
+export default function HomeHero({
+  handleShowModal,
+}: {
+  handleShowModal: Function;
+}) {
   return (
-    <div className="max-w-5xl  mx-auto relative">
+    <div className="max-w-7xl mx-auto relative">
       {/* Illustration behind hero content */}
       {/* Hero content */}
       <div className="relative pt-16 lg:pt-24">
@@ -10,21 +14,17 @@ export default function HomeHero() {
         <div className="max-w-5xl mx-auto text-center ">
           <div className="leading-[50px] lg:leading-[100px] font-extrabold ">
             <abbr className="text-[32px] sm:text-[40px] lg:text-[75px] tracking-wide px-4 lg:px-8 custom-start-lg-effect ">
-              AI-Powered Data Seeding and
+              Effortlessly Generate
               <abbr className="px-4 lg:px-8 custom-end-lg-effect">
-                EaaS Platform
+                Synthetic Data with AI
               </abbr>
             </abbr>
-          </div>
-          <div className="block md:hidden w-full py-8 wave-bg ">
-            <HeroCarousel />
           </div>
 
           <div className="max-w-xs mt-4 mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
-              <a
-                href="https://app.hakkaren.co/auth/signup"
-                target="_blank"
+              <button
+                onClick={() => handleShowModal()}
                 className="w-full lg:w-fit btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 py-3 px-6 shadow-lg shadow-indigo-600/100"
               >
                 <svg
@@ -40,8 +40,8 @@ export default function HomeHero() {
                     fill="white"
                   />
                 </svg>
-                Sign up free
-              </a>
+                Join Waitlist
+              </button>
             </div>
           </div>
         </div>

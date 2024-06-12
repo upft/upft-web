@@ -12,16 +12,12 @@ export default function Footer() {
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20">
             {/* 1st block */}
             <div className="md:col-span-3 lg:col-span-3 sm:col-span-12">
-              <div className="mb-2">
+              <div className="mb-2 font-poetsen font-bold text-2xl">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="UPFT">
-                  <Image
-                    className="rounded-full"
-                    src={logimg}
-                    width={150}
-                    alt="UPFT"
-                  />
-                </Link>
+                DataInceptor
+                {/* <Link href="/" className="inline-block" aria-label="UPFT">
+                  <Image className="" src={logimg} width={150} alt="UPFT" />
+                </Link> */}
               </div>
               <div className="text-gray-400 text-sm">
                 Built with &#10084;&#65039; in Boston
@@ -29,7 +25,7 @@ export default function Footer() {
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-9 lg:col-span-9 sm:col-span-12 grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-3">
+            <div className="md:col-span-9 lg:col-span-9 sm:col-span-12 grid grid-cols-2 md:grid-cols-3 sm:grid-cols-2 gap-3">
               {/* 2nd block */}
               <div className="text-sm">
                 <div className="text-gray-200 font-medium mb-1">Company</div>
@@ -42,7 +38,7 @@ export default function Footer() {
                       About Us
                     </Link>
                   </li>
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <Link
                       href="/why-upft"
                       rel="noopener noreferrer"
@@ -50,10 +46,10 @@ export default function Footer() {
                     >
                       Why UPFT
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="mb-1">
                     <Link
-                      href="https://wellfound.com/company/hakkaren/jobs"
+                      href="https://wellfound.com/company/upft-inc/jobs"
                       rel="noopener noreferrer"
                       target="_blank"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
@@ -64,82 +60,16 @@ export default function Footer() {
                 </ul>
               </div>
               {/* 3rd block */}
-              <div className="text-sm">
-                <div className="text-gray-200 font-medium mb-1">Products</div>
-                <ul>
-                  {/* <li className="mb-1">
-                    <Link
-                      href="/products/overview"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Overview
-                    </Link>
-                  </li> */}
-                  <li className="mb-1">
-                    <Link
-                      href="/products/dataforger"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      DataForger
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/products/nimbus"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Nimbus
-                    </Link>
-                  </li>
-                  {/* <li className="mb-1">
-                    <Link
-                      href="/products/loadlens"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      LoadLens
-                    </Link>
-                  </li> */}
-                </ul>
-              </div>
 
               {/* 4th block */}
-              <div className="text-sm">
-                <div className="text-gray-200 font-medium mb-1">Resources</div>
-                <ul>
-                  <li className="mb-1">
-                    <Link
-                      href="/blog"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Blog
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/how-it-works"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      How it works
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="https://learn.hakkaren.co"
-                      target="_blank"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Documentations
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+
               {/* 5th block */}
               <div className="text-sm">
                 <div className="text-gray-200 font-medium mb-1">Social</div>
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="https://wellfound.com/company/hakkaren"
+                      href="https://wellfound.com/company/upft-inc"
                       target="_blank"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -148,7 +78,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="https://www.linkedin.com/company/hakkaren/about/"
+                      href="https://www.linkedin.com/company/upftinc/about/"
                       target="_blank"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >

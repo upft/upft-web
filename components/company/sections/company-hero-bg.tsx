@@ -184,23 +184,23 @@ export default function CompanyHeroBg() {
       (loadlensObj.position.z = 0);
     // scene.add(loadlensObj);
 
-    const imageDataForger: HTMLImageElement = document.createElement("img");
-    imageDataForger.style.width = "110px";
-    imageDataForger.addEventListener("load", function () {
-      const forgerObj = new CSS3DSprite(imageDataForger);
+    const imageDataInceptor: HTMLImageElement = document.createElement("img");
+    imageDataInceptor.style.width = "110px";
+    imageDataInceptor.addEventListener("load", function () {
+      const forgerObj = new CSS3DSprite(imageDataInceptor);
       (forgerObj.position.x = bluePosList[14].x),
         (forgerObj.position.y = bluePosList[14].y),
         (forgerObj.position.z = 0);
       scene.add(forgerObj);
       blueLineEffects.push({ index: 14, ObjData: forgerObj });
     });
-    imageDataForger.src = "imgs/DataForger_svg.png";
-    const borderDataForger = document.createElement("div");
-    borderDataForger.style.width = "170px";
-    borderDataForger.style.height = "170px";
-    borderDataForger.style.border = "2px dotted #E8FCAF";
-    borderDataForger.style.borderRadius = "50%";
-    const dataforgerObj = new CSS3DSprite(borderDataForger);
+    imageDataInceptor.src = "imgs/DataInceptor_svg.png";
+    const borderDataInceptor = document.createElement("div");
+    borderDataInceptor.style.width = "170px";
+    borderDataInceptor.style.height = "170px";
+    borderDataInceptor.style.border = "2px dotted #E8FCAF";
+    borderDataInceptor.style.borderRadius = "50%";
+    const dataforgerObj = new CSS3DSprite(borderDataInceptor);
     (dataforgerObj.position.x = bluePosList[14].x),
       (dataforgerObj.position.y = bluePosList[14].y),
       (dataforgerObj.position.z = 0);
