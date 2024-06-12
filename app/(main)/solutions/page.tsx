@@ -53,8 +53,6 @@ export default function Solutions() {
       {chooseType == "engineering" && <SolutionsEngineering />}
       {chooseType == "pm" && <SolutionsPM />}
       {chooseType == "sales" && <SolutionsSales />}
-
-      <AIManagement />
     </section>
   );
 }

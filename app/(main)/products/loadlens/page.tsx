@@ -12,7 +12,6 @@ export default function LoadLens() {
       <LoadLensHighlightFeatures />
       <LoadLensIntegrationFeatures />
       <LoadLensAnalyticsFeatures />
-      <AIManagement />
     </section>
   );
 }

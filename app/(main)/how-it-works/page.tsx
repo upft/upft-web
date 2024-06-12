@@ -96,7 +96,6 @@ export default function HowItWorks() {
       {/* {chooseType == "loadlens" && <HowLoadLens />} */}
       {chooseType == "nimbus" && <HowNimbus />}
       {/* <HowVideoPlay /> */}
-      <AIManagement />
     </section>
   );
 }

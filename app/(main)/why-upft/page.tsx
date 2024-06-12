@@ -191,7 +191,6 @@ export default function WhyUPFT() {
       {/* <div className="why-section relative py-10 lg:py-20 px-2">
         <WhyTestmonial />
       </div> */}
-      <AIManagement />
     </section>
   );
 }

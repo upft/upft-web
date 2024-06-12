@@ -161,7 +161,6 @@ export default function Privacy() {
           </p>
         </div>
       </div>
-      <AIManagement />
     </section>
   );
 }

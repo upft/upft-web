@@ -13,7 +13,6 @@ export default function ProductsOverview() {
       <OverviewDataInceptor />
       <OverviewNimbus />
       {/* <OverviewLoadLens /> */}
-      <AIManagement />
     </section>
   );
 }

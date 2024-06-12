@@ -51,7 +51,6 @@ export default function DataInceptor() {
 
       <DataInceptorDatabaseFeatures />
       <DataInceptorCIFeatures />
-      <AIManagement />
     </section>
   );
 }

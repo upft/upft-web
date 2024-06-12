@@ -36,7 +36,6 @@ export default function Nimbus() {
       <NimbusHighlightFeatures />
       <NimbusFeaturesCarousel />
       <NimbusIntegrationsFeatures />
-      <AIManagement />
     </section>
   );
 }
