@@ -32,11 +32,7 @@ const SlideAnimation = () => {
   );
 };
 
-export default function AIManagement({
-  handleShowModal,
-}: {
-  handleShowModal: Function;
-}) {
+export default function AIManagement() {
   return (
     <div className="hero-section bg-blue ai-management-background relative py-12 my-0 md:my-16 px-4">
       <div className="max-w-5xl mx-auto text-center py-8 md:py-16">

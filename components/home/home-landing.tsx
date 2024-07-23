@@ -90,7 +90,7 @@ export default function HomeLanding() {
   return (
     <section>
       <div className="w-full hero-section-1">
-        <HomeHero handleShowModal={handleShowModal} />
+        <HomeHero />
       </div>
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="max-w-7xl mx-auto text-center">
@@ -131,7 +131,7 @@ export default function HomeLanding() {
         </div>
       </div>
       <DataInceptorDatabaseFeatures />
-      <AIManagement handleShowModal={handleShowModal} />
+      <AIManagement />
 
       {showModal && <JoinBetaPopup onHide={handleHideModal} />}
     </section>
