@@ -69,11 +69,33 @@ export default function Header() {
           <nav className="hidden min-[976px]:flex xl:grow">
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <button
-                  onClick={() => handleShowModal()}
+                <Link
+                  href="https://datainceptor.upft.co/auth/login"
+                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Login
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="w-4 h-4 mx-2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://datainceptor.upft.co/auth/signup"
                   className="btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 ml-3"
                 >
-                  Join Waitlist
+                  Sign Up Free
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -88,7 +110,7 @@ export default function Header() {
                       d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                </button>
+                </Link>
               </li>
             </ul>
           </nav>
