@@ -51,7 +51,7 @@ export default function AIManagement({
           onClick={() => handleShowModal()}
           className="w-full md:w-fit font-bold md-text-2xl text-black bg-white py-2 px-12 rounded"
         >
-          Join Waitlist
+          Try Now
         </button>
       </div>
     </div>

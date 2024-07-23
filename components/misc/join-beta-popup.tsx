@@ -30,7 +30,7 @@ export default function JoinBetaPopup({ onHide }: { onHide: Function }) {
           >
             <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
               <h3 className="text-3xl font-semibold text-white">
-                Join Waitlist!
+                Try Now!
               </h3>
               <button
                 className="p-1 ml-auto bg-transparent border-0 text-white float-right text-3xl leading-none font-semibold outline-none focus:outline-none"

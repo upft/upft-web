@@ -40,7 +40,7 @@ export default function HomeHero({
                     fill="white"
                   />
                 </svg>
-                Join Waitlist
+                Try Now
               </button>
             </div>
           </div>
