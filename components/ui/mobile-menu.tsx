@@ -285,23 +285,24 @@ export default function MobileMenu({
               </ul>
             </nav>
           </li>
-          {/* <li className="bg-gray-900 w-full py-1">
+          <li className="bg-gray-900 w-full py-1">
             {" "}
             <Link
-              href="https://app.hakkaren.co/auth/login"
+              href="https://datainceptor.upft.co/auth/login"
               onClick={() => setMobileNavOpen(false)}
               className="header-menu-btn flex justify-between items-center text-white-600 font-medium hover:font-medium hover:underline hover:underline-offset-4 px-4 py-3 transition duration-150 ease-in-out"
             >
               Log In
             </Link>
-          </li> */}
+          </li>
           <li className="bg-gray-900 w-full pt-3 pb-8">
-            <button
-              onClick={() => handleShowModal()}
+            <Link
+              href="https://datainceptor.upft.co/auth/signup"
+              target="_blank"
               className="btn-sm shadow-lg shadow-indigo-600/100 w-full rounded border-white text-white bg-purple-600 hover:bg-purple-700"
             >
-              Join Waitlist
-            </button>
+              Sign Up Free
+            </Link>
           </li>
         </ul>
       </nav>
