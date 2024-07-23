@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 
@@ -46,13 +47,13 @@ export default function AIManagement({
           Whether you're a <SlideAnimation /> just tell our AI what data or
           scenario you need, and we'll generate it for you.
         </h3>
-
-        <button
-          onClick={() => handleShowModal()}
-          className="w-full md:w-fit font-bold md-text-2xl text-black bg-white py-2 px-12 rounded"
-        >
-          Try Now
-        </button>
+        <Link href="https://datainceptor.upft.co/auth/signup">
+          <button
+            className="w-full md:w-fit font-bold md-text-2xl text-black bg-white py-2 px-12 rounded"
+          >
+            Try Now
+          </button>
+        </Link>
       </div>
     </div>
   );
