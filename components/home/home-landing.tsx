@@ -2,6 +2,8 @@
 import React, { useRef, useState } from "react";
 import Image from "next/image";
 
+import mongoIco from "@/public/imgs/dataforger/mongoIco.png";
+import PostgreSQLogo from "@/public/imgs/dataforger/PostgreSQLogo.png";
 import logo from "@/public/imgs/logos/Logo.svg";
 import dfFlow from "@/public/imgs/dataforger/Dataforger v2.png";
 import dfFlowAT from "@/public/imgs/dataforger/dataincep1.png";
@@ -92,14 +94,31 @@ export default function HomeLanding() {
       <div className="w-full hero-section-1">
         <HomeHero />
       </div>
+      <DataInceptorDatabaseFeatures />
+
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="max-w-7xl mx-auto text-center">
+          <h2 className="mb-12">
+            <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-lg-effect">Effortlessly Seed Data For Manual Testing</span>
+          </h2>
           <video ref={videoRef} loop autoPlay muted playsInline>
             <source src={"/videos/video.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
       </div>
+
+      <div className="hero-section relative py-12 my-0 lg:my-16">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="mb-12">
+            <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-lg-effect">Quick integration without hassle of privacy concern</span>
+          </h2>
+          <div className="max-w-7xl mx-auto text-center">
+              <Image src={dfFlow} alt="dfFlow" />
+            </div>
+          </div>
+      </div>
+      
       <div className="hero-section relative  my-0 lg:my-16">
         <HomeBenefitsOverview />
         <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 my-12">
@@ -109,19 +128,7 @@ export default function HomeLanding() {
           <WhyFeaturesSwiperLists listItems={manualFeaturesItems} />
         </div>
       </div>
-      <div className="hero-section relative py-12 my-0 lg:my-16">
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5 px-2">
-          <div className="max-w-7xl mx-auto text-center">
-            <video ref={videoRef} controls autoPlay muted playsInline>
-              <source src={"/videos/demo.mp4"} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div className="max-w-7xl mx-auto text-center">
-            <Image src={dfFlow} alt="dfFlow" />
-          </div>
-        </div>
-      </div>
+
       <div className="hero-section relative py-12 my-0 lg:my-16">
         <div className="max-w-7xl hidden mx-auto lg:grid grid-cols-3 gap-10 my-12">
           <WhyFeaturesLists listItems={autoFeaturesItems} />
@@ -130,7 +137,7 @@ export default function HomeLanding() {
           <WhyFeaturesSwiperLists listItems={autoFeaturesItems} />
         </div>
       </div>
-      <DataInceptorDatabaseFeatures />
+
       <AIManagement />
 
       {showModal && <JoinBetaPopup onHide={handleHideModal} />}

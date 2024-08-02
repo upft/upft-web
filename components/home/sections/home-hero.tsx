@@ -1,8 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import releaseImg from "@/public/imgs/solutions/releaseDemo.png";
+import acceptImg from "@/public/imgs/dataforger/acceptImg.png";
+import { useRef, useState } from "react";
 
 export default function HomeHero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="max-w-7xl mx-auto relative">
       {/* Illustration behind hero content */}
@@ -11,29 +15,28 @@ export default function HomeHero() {
         {/* Section header */}
         <div className="mx-auto text-center bg-[#0f172a] bg-opacity-80">
           <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 px-2">
-            <div className="hero-left-content px-8 order-2 lg:order-1">
-              <Image
-                className="hero-codeImg mb-4"
-                src={releaseImg}
-                alt="code_main"
-              />
+            <div className="hero-left-content order-2 lg:order-1 flex items-center justify-center">
+              <video ref={videoRef} controls autoPlay muted playsInline>
+                <source src="/videos/demo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
-            <div className="hero-right-content text-start px-4 order-1 lg:order-2">
+            <div className="hero-right-content text-start order-1 lg:order-2">
               <h2 className="mb-8">
-                <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-effect">
-                  Effortlessly Generate Synthetic Data with AI-Powered LLM Engines
+                <span className="-ml-4 lg:-ml-8 px-4 lg:px-8 custom-start-lg-effect custom-end-lg-effect">
+                <b className="text-yellow-100">Seed production-like data in a snap</b>, without accessing your prod environment.
                 </span>
               </h2>
 
               <ul className="list-disc pl-8 pr-8 text-xl">
                 <li className="mb-2 lg:mb-6">
-                  No need to write the data seeding script
+                  Leave behind the hassle of data seeding scripts
                 </li>
                 <li className="mb-2 lg:mb-6">
-                  No need to add the test data manually
+                  Unlimited ephemeral environment for conflict-free testing
                 </li>
                 <li className="mb-2 lg:mb-6">
-                  Connect, Prompt, and Generate. Save your time on the tedious data seeding process!
+                  Easy integration to save time on tedious data seeding
                 </li>
               </ul>
               <div className="lg:block mt-8">
