@@ -11,7 +11,7 @@ export default function DataInceptorDatabaseFeatures() {
   return (
     <div className="dataforger-section relative py-12">
       <div className="max-w-7xl mx-auto px-2">
-        <div className="text-5xl py-8 mb-4 text-center italic">Seamlessly Integrated with </div>
+        <h2 className="py-8 mb-4 text-center italic">Seamlessly Integrated with </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="dataforger-left order-2 md:order-1">
             <div className="px-4 text-3xl text-center pb-2">
