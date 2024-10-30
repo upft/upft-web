@@ -40,7 +40,7 @@ export default function HomeHero() {
                 </li>
               </ul>
               <div className="lg:block mt-8">
-                <Link href="https://datainceptor.upft.co/auth/signup">
+                <Link href="http://datainceptor.upft.co/auth/signup">
                   <button
                     className="w-full lg:w-fit btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 py-3 px-6 shadow-lg shadow-indigo-600/100"
                   >
