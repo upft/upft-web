@@ -70,7 +70,7 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="https://datainceptor.upft.co/auth/login"
+                  href="http://datainceptor.upft.co/auth/login"
                   className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Login
@@ -92,7 +92,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="https://datainceptor.upft.co/auth/signup"
+                  href="http://datainceptor.upft.co/auth/signup"
                   className="btn-sm text-white bg-purple-600 rounded border-white hover:bg-purple-700 ml-3"
                 >
                   Sign Up Free
